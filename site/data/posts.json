@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "59343d075c1b420e81bb",
+      "url": "https://ktown.heykorean.com/Store_View.asp?idx=109989",
+      "title": "uncleny(삼촌택배)-뉴저지(핵켄섹) 이사 > 뉴저지 이사/택배/운송/교통 | 뉴저지 한인업소록 - HeyKorean",
+      "excerpt": "미국전역에서 최저가 배송비로 한국에서 가장 믿을수 있는 우체국택배로 배송해드립니다. 가까운 UPS스토어 또는 그부분도 힘드시다면 집으로 직접 UPS직원이 픽업해드립니다.",
+      "source": "HeyKorean",
+      "score": 45,
+      "reasons": [
+        "한국 상품 관련",
+        "구매·배송 맥락"
+      ],
+      "keywords": [
+        "Korea only shipping"
+      ],
+      "first_seen": "2026-09-29T05:48:14.818039+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
+      "expanded_search": true,
+      "source_date": null,
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
+    },
+    {
+      "id": "9eed45cc7ba84f1db5d1",
+      "url": "https://www.reddit.com/r/kpophelp/comments/18a15kr/how_do_i_get_an_american_address_for_shipping",
+      "title": "r/kpophelp on Reddit: How do I get an American address for shipping?",
+      "excerpt": "You sign up for an account, they provide you with an address that you then send to the seller. The seller will then send the item to the mail forwarding service.",
+      "source": "Reddit · K-pop",
+      "score": 100,
+      "reasons": [
+        "한국 상품 관련",
+        "배송·구매대행 필요",
+        "질문·추천 요청",
+        "구매·배송 맥락"
+      ],
+      "keywords": [
+        "Korean address forwarding"
+      ],
+      "first_seen": "2026-09-29T05:48:14.818039+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
+      "expanded_search": true,
+      "source_date": "2023-12-03T19:31:54",
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
+    },
+    {
       "id": "29dc872624afa28112c5",
       "url": "https://x.com/blazingbees/status/2102652912610787581",
       "title": "Katoo on X: \"미국에서만 쓸 수 있다는 메타 뮤즈 한국에서도 쓰는 방법. 한국에서 어떻게 쓰냐는 질문 많아서 아예 글로 씀. 준비물은 핸드폰 & VPN (처음에만)이 필요함. 1. 아이폰은 아이클라우드 미국 계정을 하나 만든다 (인증번호 한국으로하면되고 결제 정보 넣을 필요없음) 2. VPN으로 미국 서버에 연결한다. Proton VPN 공짜니까 여러번 재접속해서 미국 연결하던지 미국 서버 선택되는 VPN 쓰",
@@ -283,10 +325,13 @@
         "질문·추천 요청"
       ],
       "keywords": [
-        "Korean proxy shipping"
+        "Korea only shipping",
+        "Korean address forwarding",
+        "Korean proxy shipping",
+        "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-28T05:29:20.708531+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-28T05:29:20.708531+00:00"
@@ -327,7 +372,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-27T05:23:02.750550+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2019-12-12T09:47:38",
       "content_updated": "2026-09-27T05:23:02.750550+00:00"
@@ -735,7 +780,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-26T05:04:35.017682+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-26T05:04:35.017682+00:00"
@@ -858,7 +903,7 @@
         "Korea only shipping"
       ],
       "first_seen": "2026-09-24T04:57:12.793136+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-24T04:57:12.793136+00:00"
@@ -878,7 +923,7 @@
         "Korea only shipping"
       ],
       "first_seen": "2026-09-24T04:57:12.793136+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-26T05:04:35.017682+00:00"
@@ -899,7 +944,7 @@
         "Korea only shipping"
       ],
       "first_seen": "2026-09-24T04:57:12.793136+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-24T04:57:12.793136+00:00"
@@ -919,7 +964,7 @@
         "Korea only shipping"
       ],
       "first_seen": "2026-09-24T04:57:12.793136+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-24T04:57:12.793136+00:00"
@@ -939,7 +984,7 @@
         "Korea only shipping"
       ],
       "first_seen": "2026-09-24T04:57:12.793136+00:00",
-      "last_seen": "2026-09-24T04:57:12.793136+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2024-02-16T00:00:00",
       "content_updated": "2026-09-24T04:57:12.793136+00:00"
@@ -1001,10 +1046,10 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-24T04:57:12.793136+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": false,
       "source_date": "2026-09-22T17:10:43",
-      "content_updated": "2026-09-27T05:23:02.750550+00:00"
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
     },
     {
       "id": "162ed07e2778f3423dc5",
@@ -1022,7 +1067,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-24T04:57:12.793136+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2025-11-18T09:58:33",
       "content_updated": "2026-09-24T04:57:12.793136+00:00"
@@ -1043,7 +1088,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-24T04:57:12.793136+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2021-06-24T23:35:52",
       "content_updated": "2026-09-24T04:57:12.793136+00:00"
@@ -1083,7 +1128,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-24T04:57:12.793136+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-24T04:57:12.793136+00:00"
@@ -1701,7 +1746,7 @@
         "Korean proxy shipping"
       ],
       "first_seen": "2026-09-23T04:49:23.273510+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-23T04:49:23.273510+00:00"
@@ -1742,7 +1787,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -1762,7 +1807,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -1782,7 +1827,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -1802,7 +1847,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -1822,7 +1867,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -1842,7 +1887,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -1862,7 +1907,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -1882,7 +1927,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -1902,7 +1947,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -1922,7 +1967,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-24T04:57:12.793136+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -1963,7 +2008,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": false,
       "source_date": "2026-09-08T12:14:12",
       "content_updated": "2026-09-24T04:57:12.793136+00:00"
@@ -2044,7 +2089,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-24T04:57:12.793136+00:00"
@@ -2065,7 +2110,7 @@
         "Korean proxy shipping"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2022-06-24T00:00:00",
       "content_updated": "2026-09-23T04:49:23.273510+00:00"
@@ -2087,7 +2132,7 @@
         "한국 물건 해외배송"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2026-01-12T06:50:50",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2108,7 +2153,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2022-06-30T11:34:49",
       "content_updated": "2026-09-27T05:23:02.750550+00:00"
@@ -2129,7 +2174,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2025-05-20T18:17:04",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2150,7 +2195,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2025-10-06T12:18:20",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2171,7 +2216,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2024-05-04T12:52:06",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2212,7 +2257,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2026-02-16T16:49:36",
       "content_updated": "2026-09-27T05:23:02.750550+00:00"
@@ -2233,7 +2278,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2025-10-14T04:37:01",
       "content_updated": "2026-09-24T04:57:12.793136+00:00"
@@ -2275,7 +2320,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2024-03-19T05:51:43",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2295,7 +2340,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2024-11-01T09:49:10",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2316,7 +2361,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2025-03-20T01:01:17",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2336,7 +2381,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2020-05-22T08:26:43",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2379,7 +2424,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2026-03-25T03:50:56",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2399,7 +2444,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2024-10-12T15:47:44",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2419,7 +2464,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2024-05-18T17:15:00",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2440,7 +2485,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2024-10-14T08:28:49",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2462,7 +2507,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2023-11-02T11:32:31",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2483,7 +2528,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2024-07-10T15:23:56",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2505,7 +2550,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2024-11-04T16:20:05",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2525,7 +2570,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2026-03-04T12:12:31",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2546,7 +2591,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2024-03-12T02:53:55",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2567,7 +2612,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2024-01-30T22:25:00",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2588,7 +2633,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-24T04:57:12.793136+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2025-10-01T14:19:25",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2610,7 +2655,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2022-12-12T12:53:05",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2630,7 +2675,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2651,7 +2696,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2672,7 +2717,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2693,7 +2738,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2713,7 +2758,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2734,7 +2779,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2754,7 +2799,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2775,7 +2820,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2795,7 +2840,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2816,7 +2861,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2837,7 +2882,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2857,7 +2902,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2878,7 +2923,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2899,7 +2944,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2919,7 +2964,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": false,
       "source_date": "2026-09-15T07:16:56",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2959,7 +3004,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2021-01-22T00:00:00",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2979,7 +3024,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2021-03-13T00:00:00",
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -2999,7 +3044,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-22T05:03:12.664930+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-22T05:03:12.664930+00:00"
@@ -3348,13 +3393,14 @@
       "id": "f21696ce28200ad908cd",
       "url": "https://www.reddit.com/r/kpophelp/comments/1er2cq4/does_anyone_have_a_good_korean_proxy",
       "title": "r/kpophelp on Reddit: Does anyone have a good Korean proxy ?",
-      "excerpt": "Shop and ship is a good one if it’s available in your country! ... Experience using korean proxy services?",
+      "excerpt": "The only benefit for using them is that they do use other logistics companies like DHL and FedEx which can be slightly faster and allows you to forward the parcel to a pickup location. Cost wise, they're a bit higher too because they charge for consolidation, photos for all orders. Stay away from Harumio, they were the worst one I've tried and they made so many mistakes on placing orders. You basically have to manage - they are very slow, bad at communication, disorganized and don't have a good platform to track your orders. ... Do you perhaps know any Korean proxy which are offering tax free shipping lines?",
       "source": "Reddit · K-pop",
-      "score": 80,
+      "score": 100,
       "reasons": [
         "한국 상품 관련",
         "배송·구매대행 필요",
-        "질문·추천 요청"
+        "질문·추천 요청",
+        "구매·배송 맥락"
       ],
       "keywords": [
         "Korean address forwarding",
@@ -3362,10 +3408,10 @@
         "한국 구매대행 추천"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2024-08-13T08:10:18",
-      "content_updated": "2026-09-28T05:29:20.708531+00:00"
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
     },
     {
       "id": "70462022e23ec5f0d354",
@@ -3384,7 +3430,7 @@
         "Korean proxy shipping"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-21T09:08:35.521117+00:00"
@@ -3438,7 +3484,7 @@
       "id": "b89092655e258af80c6d",
       "url": "https://www.reddit.com/r/kpophelp/comments/yzv05w/how_to_get_korean_addressproxy_for_reasonable",
       "title": "r/kpophelp on Reddit: How to get Korean address/proxy for reasonable prices in 2022",
-      "excerpt": "I know GOMs usually order > send to kadd then ship to their location destination.",
+      "excerpt": "Unless you have a friend in Korea who you can go through. At this point I’ve just accepted the premium cost to be able to get items that don’t ship internationally. An idea is to not forward everything right away, but instead save up until you have multiple items that combine shipping.",
       "source": "Reddit · K-pop",
       "score": 100,
       "reasons": [
@@ -3452,16 +3498,16 @@
         "Korean proxy shipping"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2022-11-20T04:25:17",
-      "content_updated": "2026-09-28T05:29:20.708531+00:00"
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
     },
     {
       "id": "f1904d7e2063d93ca127",
       "url": "https://www.reddit.com/r/kpophelp/comments/ruavkq/looking_for_a_reliable_shopping_proxy_service",
       "title": "r/kpophelp on Reddit: Looking for a reliable shopping proxy service!",
-      "excerpt": "If you want to know about shipping, just put some other things in your cart and go to checkout to see approx what it’ll be. Korean proxies are A LOT more expensive than Japanese/Chinese proxies, so I really wouldn’t recommend it unless you’re buying from sites that don’t ship internationally at all.",
+      "excerpt": "According to your website you ship to my country. Do you have any information about the forwarding service you provide? I don’t need help buying things, but to ship items to a Korean address, store it there for a bit, and then combine multiple packages and forward it to my country.",
       "source": "Reddit · K-pop",
       "score": 100,
       "reasons": [
@@ -3475,16 +3521,16 @@
         "Korean proxy shipping"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2022-01-02T14:38:31",
-      "content_updated": "2026-09-28T05:29:20.708531+00:00"
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
     },
     {
       "id": "e5f10e63619cb3436935",
       "url": "https://www.reddit.com/r/kpophelp/comments/193x1t6/is_delivered_korea_a_good_and_reliable_site_to",
       "title": "r/kpophelp on Reddit: Is DELIVERED KOREA a good and reliable site to get official merchs delivered to you without paying a lot just for the shipping??",
-      "excerpt": "It was also another few dollars to have items repackaged to consolidate the shipping. You buy (I used this for weverse global): Free use of the Korean address and free storage for 30 days (I think they just raised it to 45 days) is good. The only cost I paid to Delivered Korea was shipping.",
+      "excerpt": "You buy (I used this for weverse global): Free use of the Korean address and free storage for 30 days (I think they just raised it to 45 days) is good. The only cost I paid to Delivered Korea was shipping. Weverse global shipping prices to the US are just ridiculous now and I was shopping for a couple of items not available on the US store.",
       "source": "Reddit · K-pop",
       "score": 70,
       "reasons": [
@@ -3501,16 +3547,16 @@
         "한국 물건 해외배송"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2024-01-11T08:40:59",
-      "content_updated": "2026-09-28T05:29:20.708531+00:00"
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
     },
     {
       "id": "31db4a37431e77a9871a",
       "url": "https://www.reddit.com/r/kpophelp/comments/xdt11b/question_about_shipping_and_koreanbuddy",
       "title": "r/kpophelp on Reddit: Question about shipping and Koreanbuddy",
-      "excerpt": "Also: Are there any better methods of buying a foreign package that doesn’t ship internationally? Any advice would be much appreciated. Thank you. Archived post. New comments cannot be posted and votes cannot be cast. Share · Share · Sort by: Best · Open comment sort options · Best · Top · New · Controversial · Old · Q&A · jimocha · • 3y ago · i use deliveredkorea as my proxy to help me buy items from korea-only sites. here's their pricing/fees · koreanbuddy/ies seem to have a minimum purchase and a flat rate/handling charge (correct me if i'm wrong).",
+      "excerpt": "There's a product I plan to buy on a Korean website that only ships domestically (I am in the US). I hear that Koreanbuddy is a good forwarding…",
       "source": "Reddit · K-pop",
       "score": 100,
       "reasons": [
@@ -3524,21 +3570,20 @@
         "Korean proxy shipping"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2022-09-14T06:16:38",
-      "content_updated": "2026-09-28T05:29:20.708531+00:00"
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
     },
     {
       "id": "04e79aa71dc8f40e68c0",
       "url": "https://www.reddit.com/r/kpophelp/comments/ssyrto/korea_to_usa_shipping_helprecommendations",
       "title": "r/kpophelp on Reddit: Korea to USA Shipping [HELP][Recommendations]",
-      "excerpt": "There are some Korean website proxy buyers you could try, which is what Buyee is.",
+      "excerpt": "Any suggestions are greatly appreciated, I really don't want to miss this opportunity to buy this album while it's available. Archived post. New comments cannot be posted and votes cannot be cast. Share ... I would recommend a GOM. Some of them will accept IO's for products/sites they're not actively hosting a group order for. I've used https://twitter.com/pixylshi several times, usually when I want Nflying goods. It will take a while given she has stuff sent to a korean address then her place then to you.",
       "source": "Reddit · K-pop",
-      "score": 100,
+      "score": 70,
       "reasons": [
         "한국 상품 관련",
-        "배송·구매대행 필요",
         "질문·추천 요청",
         "구매·배송 맥락"
       ],
@@ -3548,16 +3593,16 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2022-02-15T09:05:10",
-      "content_updated": "2026-09-28T05:29:20.708531+00:00"
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
     },
     {
       "id": "582aec3ff3c2482ff607",
       "url": "https://www.reddit.com/r/kpophelp/comments/1axyux2/reliable_shipping_forward_service_buying_local",
       "title": "r/kpophelp on Reddit: Reliable shipping forward service - Buying local Korean products and shipping internationally",
-      "excerpt": "Unfortunately, some items are only available in Korea/shipped to Korea.",
+      "excerpt": "Do you have people you know in the U.S. that might have easy access to stores like H-Mart (a chain of Korean supermarkets that also have some skincare items etc.) and/or other Korean stores? Some cities also have K-Pop stores where they could get, say, an album or merch.",
       "source": "Reddit · K-pop",
       "score": 70,
       "reasons": [
@@ -3574,16 +3619,16 @@
         "한국 물건 해외배송"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2024-02-23T12:04:46",
-      "content_updated": "2026-09-28T05:29:20.708531+00:00"
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
     },
     {
       "id": "b64e3641e76173dacdfc",
       "url": "https://www.reddit.com/r/kpophelp/comments/1d9geik/help_with_buying_from_korean_sites_that_sell",
       "title": "r/kpophelp on Reddit: Help with buying from Korean sites that sell overseas!",
-      "excerpt": "You could use a Korean proxy buying service who will be able to purchase the items on behalf of you then once they've reached their warehouse they'll ship them out to you. The one I've used before is koreanbuddies.com but I'm sure there's others that are great too!",
+      "excerpt": "You could use a Korean proxy buying service who will be able to purchase the items on behalf of you then once they've reached their warehouse they'll ship them out to you. The one I've used before is koreanbuddies.com but I'm sure there's others ...",
       "source": "Reddit · K-pop",
       "score": 100,
       "reasons": [
@@ -3598,10 +3643,10 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2024-06-06T11:57:14",
-      "content_updated": "2026-09-28T05:29:20.708531+00:00"
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
     },
     {
       "id": "af2b2035344097f71fda",
@@ -3763,7 +3808,7 @@
       "id": "efca8967867822dca3f5",
       "url": "https://www.reddit.com/r/kpopcollections/comments/186zmqi/any_good_proxing_buying_services_with_domestic",
       "title": "r/kpopcollections on Reddit: Any good proxing buying services with domestic shipping too?",
-      "excerpt": "I'm finding myself wanting to buy things from certain Korean clothing brands but they tend to only ship to Korea and you need a Korean bank account and/or phone number to even do so in the first place...",
+      "excerpt": "I'm not sure if you can use PayPal on their Korean site but you could try, they do have a global site global.yes24.com which I'm sure you can use PayPal on, and I assume you could still ship it to a kaddy? If you can't them you'd have to use an OFM. ... Hey, thanks for the detailed information! I have not heard of Ontact, I'll check it out. The thing that I tried to buy seems to be something that might be imported from the US.",
       "source": "Reddit · 컬렉션",
       "score": 100,
       "reasons": [
@@ -3778,16 +3823,16 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2023-11-29T20:47:25",
-      "content_updated": "2026-09-28T05:29:20.708531+00:00"
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
     },
     {
       "id": "b2e1fb379c00431844ce",
       "url": "https://www.reddit.com/r/kpopcollections/comments/1s16efz/experience_using_korean_proxy_services_eg",
       "title": "r/kpopcollections on Reddit: Experience using korean proxy services? eg. Delivered korea",
-      "excerpt": "I wanted to opt for their 'Inclusions' only service (i.e., you only get the photocards), in order to reduce the shipping fee due to the weight of albums. My shock when I found out these are priced PER inclusion. Not a one-off flat rate service fee. I felt completely scammed. In the end, I was thankful the albums got split up into two boxes by the korean fansign company.",
+      "excerpt": "Currently if you're the one doing the buying via the HallyU superstore website then it's fee free (barring the cost of the item itself, plus domestic shipping if the seller states they don't cover that). You then get 90 days free warehousing when it arrives. Other than shipping the only cost I paid was for consolidation ($2 per item, so if you are merging 5 packages, you pay $10). I didn't bother with repacking etc...as they re-wrap consolidated goods anyway.",
       "source": "Reddit · 컬렉션",
       "score": 100,
       "reasons": [
@@ -3802,10 +3847,10 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2026-03-23T03:45:14",
-      "content_updated": "2026-09-28T05:29:20.708531+00:00"
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
     },
     {
       "id": "f306e73a012825475456",
@@ -3833,13 +3878,12 @@
       "id": "290e1946f5fb8ddc1526",
       "url": "https://www.reddit.com/r/kpopcollections/comments/1ghfsbx/trying_to_buy_in_korea_and_ship_it_to_to_korea",
       "title": "r/kpopcollections on Reddit: Trying to buy in Korea and ship it to to Korea",
-      "excerpt": "Is there some sort of proxy site that will buy the item and ship it within the country itself? Archived post. New comments cannot be posted and votes cannot be cast. Share ... You could try Purchase Korea, I've used them when buying items that won't ship internationally from Korea as they are a proxy service who buys the item for you (use Custom Order) and they also ship within Korea.",
+      "excerpt": "You could try Purchase Korea, I've used them when buying items that won't ship internationally from Korea as they are a proxy service who buys the item for you (use Custom Order) and they also ship within Korea.",
       "source": "Reddit · 컬렉션",
-      "score": 100,
+      "score": 75,
       "reasons": [
         "한국 상품 관련",
         "배송·구매대행 필요",
-        "질문·추천 요청",
         "구매·배송 맥락"
       ],
       "keywords": [
@@ -3848,10 +3892,10 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2024-11-01T21:00:25",
-      "content_updated": "2026-09-28T05:29:20.708531+00:00"
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
     },
     {
       "id": "7e6557bc6e8c4d5451d1",
@@ -3987,12 +4031,13 @@
       "id": "45a828940fa672233525",
       "url": "https://www.reddit.com/r/kpopcollections/comments/1fhc0ux/does_anyone_have_any_korean_sites_that_ship",
       "title": "r/kpopcollections on Reddit: does anyone have any korean sites that ship worldwide (so i don’t have to use a proxy)",
-      "excerpt": "Hey! So it looks like www.kpoptown.com still have it in stock! Also a UK store www.kyyo.co.uk have them in stock too and ship worldwide but depending on where you're based shipping might be expensive.",
+      "excerpt": "I have been using them for years and before I even had my korean address. I have never had issues with them! and if you order from makestar you get pobs · Best kpop shops for EU residents other than Nolae? ... Does anyone know any Canadian retailers or ones that don’t have really huge shipping fees to Canada I can preorder ss86 Prime from ... Are there any good ways to exchange my online currencies to Dinars?",
       "source": "Reddit · 컬렉션",
-      "score": 75,
+      "score": 100,
       "reasons": [
         "한국 상품 관련",
         "배송·구매대행 필요",
+        "질문·추천 요청",
         "구매·배송 맥락"
       ],
       "keywords": [
@@ -4000,10 +4045,10 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2024-09-15T13:03:39",
-      "content_updated": "2026-09-28T05:29:20.708531+00:00"
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
     },
     {
       "id": "90fec13a172bc13f2c85",
@@ -4097,7 +4142,7 @@
       "id": "9a28822b667ab0e9bee1",
       "url": "https://www.reddit.com/r/kpopcollections/comments/pzcjm4/a_guide_to_shopping_on_bunjang_kfriday_proxy",
       "title": "r/kpopcollections on Reddit: A Guide To Shopping on Bunjang + KFriday Proxy Service Experience/Review/Haul",
-      "excerpt": "So you can reach out to KFriday to buy items and ship them to you on your behalf. I made a guide here on how to navigate Bunjang since it's in Korean: https://www.reddit.com/user/virtualpropinquity/comments/pzaq17/guide_to_purchasing_on_bunjang_proxy_sellers/ tl;dr I use Papago to translate text",
+      "excerpt": "You can't buy directly from Bunjang if you don't have a Korean phone number/bank account. You can buy from Aladin but most 3rd party sellers will only ship domestically. So you can reach out to KFriday to buy items and ship them to you on your ...",
       "source": "Reddit · 컬렉션",
       "score": 75,
       "reasons": [
@@ -4110,10 +4155,10 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2021-10-09T17:53:34",
-      "content_updated": "2026-09-28T05:29:20.708531+00:00"
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
     },
     {
       "id": "36af3a516642d7e73e13",
@@ -4218,7 +4263,7 @@
         "Korean proxy shipping"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-21T09:08:35.521117+00:00"
@@ -4242,7 +4287,7 @@
         "Korean proxy shipping"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-21T09:08:35.521117+00:00"
@@ -4285,7 +4330,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-21T09:08:35.521117+00:00"
@@ -4308,7 +4353,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-21T09:08:35.521117+00:00"
@@ -4502,7 +4547,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-21T09:08:35.521117+00:00"
@@ -4523,7 +4568,7 @@
         "Korean proxy shipping"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-21T09:08:35.521117+00:00"
@@ -4608,7 +4653,7 @@
         "Korean proxy shipping"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-21T09:08:35.521117+00:00"
@@ -4658,7 +4703,7 @@
       "id": "1e13268d85866956f577",
       "url": "https://www.reddit.com/r/kpophelp/comments/1g5epx2/delivery_korea_how_to_buyship_help",
       "title": "r/kpophelp on Reddit: Delivery Korea, how to buy/ship? HELP",
-      "excerpt": "Once you buy it, it gives you a number on the \"we buy order\" page (ex: #N249231) and you'll just have to wait until it says confirmed and wait until it gets to the warehouse which may take 1-2 weeks depending! after that you can choose e the shipping method you prefer! and thats the process you should be expecting, hope this helps! ... do you mean delivered korea?",
+      "excerpt": "If you want to order anything from bunjang I can help you order since usually we take bunjang orders real quick since we know they can be sold out quickly! But i wouldn't rely on delivered korea \"we buy orders\" since they take a week or more to be fully recieved in the warehouse and them ship out as well!",
       "source": "Reddit · K-pop",
       "score": 70,
       "reasons": [
@@ -4672,10 +4717,10 @@
         "한국 물건 해외배송"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2024-10-17T00:56:37",
-      "content_updated": "2026-09-28T05:29:20.708531+00:00"
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
     },
     {
       "id": "45bcb38e58c6d5b2321f",
@@ -4851,7 +4896,7 @@
       "id": "e25d3236597dd83a39bc",
       "url": "https://www.reddit.com/r/kpophelp/comments/1knlxrf/delivered_korea_shipping_address_help",
       "title": "r/kpophelp on Reddit: delivered korea shipping address help",
-      "excerpt": "The 광역시/metropolitan city designation means Busan is at the same level as a province. It's similar to how you wouldn't put Gyeonggi-do if you were writing an address in Seoul (which is designated 특별시/special city). But whichever way you put the address, the KR post office or whatever delivery service they use will know where to ship.",
+      "excerpt": "Most sites have a zipcode look up function where you would enter the 48553 and it will give you a selection of addresses to choose from.",
       "source": "Reddit · K-pop",
       "score": 70,
       "reasons": [
@@ -4865,10 +4910,10 @@
         "한국 물건 해외배송"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2025-05-15T22:57:52",
-      "content_updated": "2026-09-28T05:29:20.708531+00:00"
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
     },
     {
       "id": "f45f9f6846ac87f000e8",
@@ -4958,12 +5003,11 @@
       "id": "a658cfbe732ff452eb9b",
       "url": "https://www.reddit.com/r/kpopcollections/comments/1gggf4s/how_is_shipping_from_kr_to_usa",
       "title": "How is shipping from KR to USA : r/kpopcollections",
-      "excerpt": "Do you have an estimated value of how much you have paid for shipping for a certain amount of weight (lb/kg) or a certain package size? (Ex $150 shipping for 6 kg, idk 😅) ... Like other said, no fees bc the us and korea have a trade agreement. :) I found https://www.kpopalbums.com/ to have the lowest shipping fees of the ones I personally tried.",
+      "excerpt": "I live in Orlando and frequently use Korgou to ship huge boxes of goods from SK. I’ve had many orders totaling over $2000 in products, and have never paid customs fees. And I always say exactly what’s in the box. Typically a 50lb very large box costs me anywhere from $150-250.",
       "source": "Reddit · 컬렉션",
-      "score": 70,
+      "score": 45,
       "reasons": [
         "한국 상품 관련",
-        "질문·추천 요청",
         "구매·배송 맥락"
       ],
       "keywords": [
@@ -4971,10 +5015,10 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2024-10-31T14:52:47",
-      "content_updated": "2026-09-28T05:29:20.708531+00:00"
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
     },
     {
       "id": "f0f902c42c1f19627cc7",
@@ -5041,7 +5085,7 @@
       "id": "9ad18a422e8768d9080b",
       "url": "https://www.reddit.com/r/kpopcollections/comments/1hztzkn/delivered_korea_we_buy_order_question",
       "title": "r/kpopcollections on Reddit: Delivered Korea We Buy Order Question",
-      "excerpt": "If you’re using their service you still have to pay a shipping fee. Usually domestic shipping is pretty cheap but you’re ordering around $300 worth of goods so the shipping is probably more. Also it looks like you checked Yes for priority ordering which is also a fee from Delivered Korea.",
+      "excerpt": "As a comparison I now use KFriday and just did a we buy with them that was 150,000 won (about $101) and they invoiced $118. ($2 of that is the order for me fee). That was paying through Wise. PayPal cost more. ... If you’re using their service you still have to pay a shipping fee. Usually domestic shipping is pretty cheap but you’re ordering around $300 worth of goods so the shipping is probably more.",
       "source": "Reddit · 컬렉션",
       "score": 45,
       "reasons": [
@@ -5053,20 +5097,21 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2025-01-12T19:00:37",
-      "content_updated": "2026-09-28T05:29:20.708531+00:00"
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
     },
     {
       "id": "7976436d80cb9cae11c3",
       "url": "https://www.reddit.com/r/kpopcollections/comments/1r2yu86/is_delivered_korea_okay_to_buy_from",
       "title": "r/kpopcollections on Reddit: is delivered korea okay to buy from?",
-      "excerpt": "This is late but with US tariffs, don't do it. Their shipping prices are crazy and they dont help with customs issues. Delivered Korea ghosted on me when they failed to make an accurate commercial invoice. The first basic step. It did not have even the minor correct information on it for HS ...",
+      "excerpt": "I’ve been using them as my kr proxy for a few years now and had a good experience with them! I’ve used their We Buy service and it was pretty straight forward.",
       "source": "Reddit · 컬렉션",
-      "score": 70,
+      "score": 100,
       "reasons": [
         "한국 상품 관련",
+        "배송·구매대행 필요",
         "질문·추천 요청",
         "구매·배송 맥락"
       ],
@@ -5075,10 +5120,10 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2026-02-12T17:00:13",
-      "content_updated": "2026-09-28T05:29:20.708531+00:00"
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
     },
     {
       "id": "fc58aeb8a3dbf876aa85",
@@ -5271,7 +5316,7 @@
       "id": "3caa3f67482a3bd8a364",
       "url": "https://www.quora.com/Where-can-I-buy-popular-Korean-clothing-at-wholesale-prices",
       "title": "Where can I buy popular Korean clothing at wholesale prices? - Quora",
-      "excerpt": "Korean trading companies (Sourcing agents): companies in Seoul that consolidate purchases from multiple Dongdaemun vendors and handle export, QC, labeling, and shipping—reduces language and MOQ friction. Online Korean wholesale/wholesale-to-retail platforms (direct for overseas buyers)",
+      "excerpt": "Answer: We all know that in the past few years, Korean Korean fashion has rapidly become popular around the world and has occupied a huge market share of the industry. Finding a legit and reliable wholesale supplier is the most important step in starting your fashion business if you want to stay ...",
       "source": "Quora",
       "score": 70,
       "reasons": [
@@ -5284,10 +5329,10 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
-      "content_updated": "2026-09-28T05:29:20.708531+00:00"
+      "content_updated": "2026-09-29T05:48:14.818039+00:00"
     },
     {
       "id": "441103360122237a5861",
@@ -5391,7 +5436,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-28T05:29:20.708531+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-21T09:08:35.521117+00:00"
@@ -5472,7 +5517,7 @@
         "Korea only shipping"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-21T09:08:35.521117+00:00"
@@ -5575,7 +5620,7 @@
         "Korea only shipping"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": null,
       "content_updated": "2026-09-24T04:57:12.793136+00:00"
@@ -5596,7 +5641,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2022-07-25T18:53:23",
       "content_updated": "2026-09-24T04:57:12.793136+00:00"
@@ -5617,7 +5662,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2021-02-23T01:31:10",
       "content_updated": "2026-09-26T05:04:35.017682+00:00"
@@ -5639,7 +5684,7 @@
         "Korean proxy shipping"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2025-09-04T14:56:46",
       "content_updated": "2026-09-26T05:04:35.017682+00:00"
@@ -5661,7 +5706,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2020-04-28T02:50:52",
       "content_updated": "2026-09-21T09:08:35.521117+00:00"
@@ -5683,7 +5728,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2025-04-11T13:26:53",
       "content_updated": "2026-09-26T05:04:35.017682+00:00"
@@ -5704,7 +5749,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2021-10-13T03:36:18",
       "content_updated": "2026-09-21T09:08:35.521117+00:00"
@@ -5724,7 +5769,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2023-09-09T18:48:00",
       "content_updated": "2026-09-21T09:08:35.521117+00:00"
@@ -5745,7 +5790,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2022-11-09T15:19:54",
       "content_updated": "2026-09-21T09:08:35.521117+00:00"
@@ -5767,7 +5812,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2024-04-23T21:11:54",
       "content_updated": "2026-09-21T09:08:35.521117+00:00"
@@ -5788,7 +5833,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2021-06-28T19:30:01",
       "content_updated": "2026-09-21T09:08:35.521117+00:00"
@@ -5809,7 +5854,7 @@
         "Korean address forwarding"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-26T05:04:35.017682+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2020-05-25T09:59:19",
       "content_updated": "2026-09-26T05:04:35.017682+00:00"
@@ -5831,7 +5876,7 @@
         "buy Korean goods abroad"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": true,
       "source_date": "2020-10-13T14:40:55",
       "content_updated": "2026-09-24T04:57:12.793136+00:00"
@@ -5853,22 +5898,22 @@
         "한국 물건 해외배송"
       ],
       "first_seen": "2026-09-21T09:08:35.521117+00:00",
-      "last_seen": "2026-09-27T05:23:02.750550+00:00",
+      "last_seen": "2026-09-29T05:48:14.818039+00:00",
       "expanded_search": false,
       "source_date": "2026-08-30T19:34:49",
       "content_updated": "2026-09-21T09:08:35.521117+00:00"
     }
   ],
-  "last_attempt": "2026-09-28T05:29:20.708531+00:00",
-  "last_success": "2026-09-28T05:29:20.708531+00:00",
+  "last_attempt": "2026-09-29T05:48:14.818039+00:00",
+  "last_success": "2026-09-29T05:48:14.818039+00:00",
   "status": "budget_limited",
   "errors": [],
   "queries": 19,
   "usage": {
     "month": "2026-09",
-    "monthly": 256,
-    "day": "2026-09-28",
+    "monthly": 288,
+    "day": "2026-09-29",
     "daily": 32
   },
-  "next_query": 61
+  "next_query": 32
 }
