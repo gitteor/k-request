@@ -57,12 +57,13 @@ class CollectorTests(unittest.TestCase):
         c=json.loads((Path(__file__).resolve().parents[1]/'config.json').read_text(encoding='utf-8'))
         c['keywords']=['Korean proxy', 'Korea shipping']
         c['sources']=c['sources'][:1]
+        c['sources'][0].pop('queries', None)
         row={'url':'https://reddit.com/r/kpophelp/comments/test', 'title':'Can you recommend Korean proxy shipping?', 'description':'How can I buy goods?'}
-        with tempfile.TemporaryDirectory() as folder:
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parent) as folder:
             root=Path(folder)
             (root/'config.json').write_text(json.dumps(c),encoding='utf-8')
             output=root/'posts.json'
-            with patch.object(collect,'ROOT',root), patch.object(collect,'OUT',output), patch.dict(os.environ,{'BRAVE_SEARCH_API_KEY':'test','SEARCH_STORAGE_ALLOWED':'true'}), patch.object(collect.time,'sleep'), patch.object(collect,'search',return_value=[row]):
+            with patch.object(collect,'ROOT',root), patch.object(collect,'OUT',output), patch.dict(os.environ,{'BRAVE_SEARCH_API_KEY':'test'}), patch.object(collect.time,'sleep'), patch.object(collect,'search',return_value=[row]):
                 collect.main()
                 first=json.loads(output.read_text(encoding='utf-8'))
                 self.assertEqual(first['status'],'ok')
@@ -74,5 +75,9 @@ class CollectorTests(unittest.TestCase):
                 self.assertEqual(failed['status'],'error')
                 self.assertEqual(failed['posts'],first['posts'])
                 self.assertEqual(failed['last_success'],first['last_success'])
+                with patch.object(collect,'search',return_value=[]) as empty:
+                    collect.main()
+                    self.assertEqual(empty.call_count,2)
+                    self.assertTrue(all(call.args[2] == c['freshness'] for call in empty.call_args_list))
 
 if __name__ == '__main__': unittest.main()

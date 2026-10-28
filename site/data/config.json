@@ -1,18 +1,143 @@
 {
-  "keywords": ["Korean proxy shipping", "Korea only shipping", "Korean address forwarding", "buy Korean goods abroad", "한국 물건 해외배송", "한국 구매대행 추천"],
-  "exclude": ["hiring", "coupon code", "sponsored"],
-  "sources": [
-    {"name":"Reddit · K-pop", "domain":"reddit.com/r/kpophelp", "enabled":true},
-    {"name":"Reddit · 컬렉션", "domain":"reddit.com/r/kpopcollections", "enabled":true},
-    {"name":"Reddit · K-beauty", "domain":"reddit.com/r/AsianBeauty", "enabled":true},
-    {"name":"Quora", "domain":"quora.com", "enabled":true},
-    {"name":"X", "domain":"x.com", "enabled":true},
-    {"name":"HeyKorean", "domain":"heykorean.com", "enabled":true},
-    {"name":"MissyUSA", "domain":"missyusa.com", "enabled":true},
-    {"name":"미국 유학생 · 고우해커스", "domain":"gohackers.com", "enabled":true}
+  "schema_version": 2,
+  "keywords": [
+    "Korean proxy recommendation",
+    "Korea only shipping help"
   ],
-  "freshness": "pm",
-  "min_score": 35,
+  "exclude": [
+    "sponsored",
+    "coupon code"
+  ],
+  "sources": [
+    {
+      "name": "아이돌 · 구매 질문",
+      "domain": "reddit.com/r/kpophelp",
+      "category": "아이돌",
+      "enabled": true,
+      "queries": [
+        "Korean proxy recommendation",
+        "Weverse shipping help",
+        "Bunjang how buy overseas"
+      ]
+    },
+    {
+      "name": "아이돌 · 수집가",
+      "domain": "reddit.com/r/kpopcollections",
+      "category": "아이돌",
+      "enabled": true,
+      "queries": [
+        "Korean forwarding address",
+        "photocard proxy help",
+        "Korea exclusive merch buy"
+      ]
+    },
+    {
+      "name": "웹툰 · BL 굿즈",
+      "domain": "reddit.com/r/Manhwa_BL",
+      "category": "웹툰·BL",
+      "enabled": true,
+      "queries": [
+        "Korean merch buy shipping",
+        "manhwa physical goods proxy",
+        "Bomtoon Lezhin merch overseas"
+      ]
+    },
+    {
+      "name": "웹툰 · 팬 커뮤니티",
+      "domain": "reddit.com/r/webtoons",
+      "category": "웹툰·BL",
+      "enabled": true,
+      "queries": [
+        "Korean merch how buy",
+        "webtoon popup proxy shipping"
+      ]
+    },
+    {
+      "name": "로맨스 판타지 · 굿즈",
+      "domain": "reddit.com/r/OtomeIsekai",
+      "category": "웹툰·BL",
+      "enabled": true,
+      "queries": [
+        "Korean merch purchase shipping",
+        "manhwa goods proxy"
+      ]
+    },
+    {
+      "name": "뷰티 · 아시아 화장품",
+      "domain": "reddit.com/r/AsianBeauty",
+      "category": "뷰티",
+      "enabled": true,
+      "queries": [
+        "Korea only shipping proxy",
+        "Olive Young exclusive buy",
+        "Korean forwarding cosmetics"
+      ]
+    },
+    {
+      "name": "뷰티 · 한국 화장품",
+      "domain": "reddit.com/r/KoreanBeauty",
+      "category": "뷰티",
+      "enabled": true,
+      "queries": [
+        "Olive Young Korea shipping help",
+        "Korean cosmetics proxy"
+      ]
+    },
+    {
+      "name": "패션·한정판 · 공개 질문",
+      "domain": "reddit.com",
+      "category": "쇼핑·한정판",
+      "enabled": true,
+      "queries": [
+        "Musinsa Korean address help",
+        "Korean exclusive plush proxy",
+        "Korea limited edition figure buy"
+      ]
+    },
+    {
+      "name": "음식 · 해외 구매",
+      "domain": "reddit.com/r/KoreanFood",
+      "category": "음식",
+      "enabled": true,
+      "queries": [
+        "Korean snacks buy overseas",
+        "Korea only shipping food"
+      ]
+    },
+    {
+      "name": "피규어 · 수집가 포럼",
+      "domain": "myfigurecollection.net/thread",
+      "category": "쇼핑·한정판",
+      "enabled": true,
+      "queries": [
+        "Korean proxy help",
+        "Korea exclusive figure shipping"
+      ]
+    },
+    {
+      "name": "X · 공개 구매 요청",
+      "domain": "x.com",
+      "category": "공개 SNS",
+      "enabled": true,
+      "queries": [
+        "\"looking for\" \"Korean proxy\"",
+        "\"need\" \"Korean address\"",
+        "\"WTB\" \"Korean\" \"merch\""
+      ]
+    },
+    {
+      "name": "Bluesky · 공개 구매 요청",
+      "domain": "bsky.app/profile",
+      "category": "공개 SNS",
+      "enabled": true,
+      "queries": [
+        "\"Korean\" \"proxy\"",
+        "\"Korean\" \"merch\" \"shipping\""
+      ]
+    }
+  ],
+  "freshness": "pw",
+  "min_score": 75,
   "retention_days": 90,
-  "max_queries": 32
+  "max_queries": 30
 }
