@@ -23,6 +23,10 @@ class QualityTests(unittest.TestCase):
         self.assertEqual(p['tier'], 'priority')
         self.assertEqual(p['evidence']['barrier'], 'proxy')
 
+    def test_internet_proxies_are_not_buying_requests(self):
+        self.assertEqual(assess('Can anyone recommend Korean proxy servers?')['tier'],'excluded')
+        self.assertEqual(assess('Best Korean proxies for web access')['tier'],'excluded')
+
     def test_negative_examples(self):
         for title in ['Korean proxy review', 'WTS Korean merch proxy', 'Korean shipping guide',
                       'My Korean cosmetics haul', 'Korean proxy survey', 'Shipping to Korea?']:

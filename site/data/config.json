@@ -1,8 +1,8 @@
 {
   "schema_version": 3,
   "keywords": [
-    "\"Korean proxy\" \"looking for\"",
-    "\"Korean proxy\" recommend",
+    "\"Korean proxy\" shipping",
+    "\"Korean proxy\" buying recommend",
     "\"Korean address\" buying",
     "\"Korea\" \"doesn't ship\"",
     "\"Korea\" \"international shipping\" help",
@@ -24,7 +24,11 @@
   ],
   "exclude": [
     "sponsored",
-    "coupon code"
+    "coupon code",
+    "VPN",
+    "datacenter",
+    "residential proxies",
+    "scraper"
   ],
   "sources": [
     {

@@ -29,6 +29,8 @@ def classify(post, excludes, stamp, min_score=75):
         blocked = '후기·정보·종료된 요청'
     elif match(INBOUND, title):
         blocked = '한국 내 배송 또는 한국행 배송'
+    elif match(r'\b(?:vpn|datacenter|residential proxies|residential proxy|proxy server|proxy servers|scraper|web scraping|web access|ip address|ip addresses)\b', text):
+        blocked = '인터넷 프록시·기술 서비스'
     elif not evidence['context']:
         blocked = '한국 구매 맥락 부족'
     elif not evidence['barrier'] and not (title_request and evidence['purchase']):
@@ -38,6 +40,8 @@ def classify(post, excludes, stamp, min_score=75):
         blocked = '개별 게시글 아님'
     if p.hostname and p.hostname.endswith('heykorean.com') and ('ktown' in p.hostname or '/web/' in p.path):
         blocked = '기존 디렉터리 링크'
+    if p.hostname and p.hostname.endswith('tiktok.com') and p.path.startswith('/discover/'):
+        blocked = '개별 게시글 아님'
     age = None
     try:
         dt = datetime.fromisoformat(str(post.get('source_date')).replace('Z', '+00:00'))
