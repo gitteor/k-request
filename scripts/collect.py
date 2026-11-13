@@ -70,12 +70,14 @@ def score(text, keyword, excludes):
     return total, reasons
 
 def validate(c):
+    if c.get('search_mode', 'channels') not in ('web', 'channels'):
+        raise ValueError('Invalid search mode')
     for field in ('keywords', 'exclude'):
         if not isinstance(c.get(field), list) or any(not isinstance(v, str) or not v.strip() or len(v) > 200 for v in c[field]):
             raise ValueError('Invalid ' + field)
     if not 1 <= len(c['keywords']) <= 30:
         raise ValueError('Use 1–30 keywords')
-    if not c.get('sources') or len(c['sources']) > 20:
+    if len(c.get('sources', [])) > 20 or (c.get('search_mode', 'channels') == 'channels' and not c.get('sources')):
         raise ValueError('Use 1–20 sources')
     for s in c['sources']:
         if not re.fullmatch(r'[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?:/[a-zA-Z0-9_/-]+)?', s['domain']):
@@ -89,10 +91,17 @@ def validate(c):
             raise ValueError('Invalid ' + key)
 
 def query_tasks(c):
+    if c.get('search_mode') == 'web':
+        return [(dict(name='웹 전체', domain='', category='웹 검색'), q) for q in c['keywords']]
     # Interleave channels; source-specific questions replace the generic Cartesian product.
     sources = [s for s in c['sources'] if s.get('enabled')]
     queries = [s.get('queries', c['keywords']) for s in sources]
     return [(s, qs[i]) for i in range(max(map(len, queries), default=0)) for s, qs in zip(sources, queries) if i < len(qs)]
+
+def build_query(source, keyword, excludes):
+    parts = ([f"site:{source['domain']}"] if source.get('domain') else []) + [keyword]
+    parts += ['-"' + re.sub(r'["\\\r\n]', ' ', term).strip() + '"' for term in excludes]
+    return ' '.join(parts)
 
 def write_result(result):
     OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -153,32 +162,36 @@ def main():
         successes = 0
         tasks = query_tasks(c)
         # Rotate the capped budget so later queries are never permanently starved.
-        start = previous.get('next_query', 0) % max(1, len(tasks))
+        signature = hashlib.sha256(json.dumps([c.get('search_mode'), tasks, c['freshness'], c['exclude']], sort_keys=True).encode()).hexdigest()
+        start = (previous.get('next_query', 0) if previous.get('query_signature') == signature else 0) % max(1, len(tasks))
+        result['query_signature'] = signature
         tasks = (tasks[start:] + tasks[:start])[:c['max_queries']]
         for source, keyword in tasks:
             result['queries'] += 1
             try:
-                rows = search(f"site:{source['domain']} {keyword}", key, c['freshness'], before_request)
+                actual_query = build_query(source, keyword, c['exclude'])
+                rows = search(actual_query, key, c['freshness'], before_request)
                 successes += 1
-                report = dict(source=source['name'], query=keyword, fetched=len(rows), priority=0, review=0)
+                report = dict(source=source['name'], query=actual_query, fetched=len(rows), priority=0, review=0, followup=0, accepted=0)
                 for row in rows:
                     try:
                         url = canonical(row['url'])
                     except (ValueError, KeyError):
                         continue
-                    if not belongs(url, source['domain']):
+                    if source.get('domain') and not belongs(url, source['domain']):
                         continue
+                    report['accepted'] += 1
                     title, excerpt = clean(row.get('title')), clean(row.get('description'))
                     uid = identity(url)
                     old = posts.get(uid, {})
-                    posts[uid] = dict(id=old.get('id', uid), url=url, title=title, excerpt=excerpt[:700], source=source['name'], category=source.get('category', '기타'),
+                    posts[uid] = dict(id=old.get('id', uid), url=url, title=title, excerpt=excerpt[:700], source=source['name'] if source.get('domain') else urlsplit(url).hostname, category=source.get('category', '기타'),
                         keywords=sorted(set(old.get('keywords', []) + [keyword])),
                         first_seen=old.get('first_seen', stamp), last_seen=stamp,
                         expanded_search=False,
                         source_date=old.get('source_date') or row.get('page_age') or None,
                         content_updated=stamp if old.get('title') != title or old.get('excerpt') != excerpt[:700] else old.get('content_updated', stamp))
                     assessment = classify(posts[uid], c['exclude'], stamp, c['min_score'])
-                    if assessment['tier'] in ('priority', 'review'):
+                    if assessment['tier'] in ('priority', 'review', 'followup'):
                         report[assessment['tier']] += 1
                 result['query_report'].append(report)
             except BudgetExhausted:

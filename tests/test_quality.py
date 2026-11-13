@@ -1,6 +1,6 @@
 import unittest
 from scripts.quality import classify
-from scripts.collect import query_tasks, identity, korea_day
+from scripts.collect import query_tasks, identity, korea_day, build_query
 
 STAMP = '2026-10-28T00:00:00+00:00'
 
@@ -9,6 +9,15 @@ def assess(title, excerpt='', date='2026-10-26T00:00:00Z'):
                          url='https://reddit.com/r/kpophelp/comments/abc'), [], STAMP)
 
 class QualityTests(unittest.TestCase):
+    def test_web_search_has_no_channel_restriction(self):
+        c={'search_mode':'web','keywords':['Korean proxy','manhwa merch'],'sources':[]}
+        tasks=query_tasks(c)
+        self.assertEqual(len(tasks),2)
+        self.assertEqual(build_query(*tasks[0],['sponsored','coupon code']), 'Korean proxy -"sponsored" -"coupon code"')
+
+    def test_channel_query_preserves_scope(self):
+        self.assertEqual(build_query({'domain':'reddit.com'},'Korean proxy',[]),'site:reddit.com Korean proxy')
+
     def test_explicit_recent_proxy_request(self):
         p=assess('Can anyone recommend a Korean proxy?', 'I want to buy Weverse merch.')
         self.assertEqual(p['tier'], 'priority')

@@ -5,3 +5,5 @@
 
 
 .source-edit{border:1px solid #dce2ee;border-radius:12px;padding:16px;margin:14px 0}.source-edit input[type=checkbox]{width:auto}.source-edit label{display:block;margin:8px 0}.source-edit input:not([type=checkbox]),.source-edit textarea{width:100%;box-sizing:border-box}.lead-state{display:block;margin-top:16px}.lead-state select{padding:8px;border:1px solid #dce2ee;border-radius:6px}.evidence{font-size:13px;color:#455578}.filters{flex-wrap:wrap}#quality{margin:12px 0;background:#eef2ff}
+
+#search-preview{padding-left:20px}#search-preview li{margin:12px 0;overflow-wrap:anywhere}#search-preview a{display:block;font-size:13px}#diagnostics details{margin-top:10px}#diagnostics li{margin:6px 0;overflow-wrap:anywhere}

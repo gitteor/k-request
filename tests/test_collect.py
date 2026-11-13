@@ -56,6 +56,7 @@ class CollectorTests(unittest.TestCase):
     def test_collection_merges_duplicates_and_preserves_on_failure(self):
         c=json.loads((Path(__file__).resolve().parents[1]/'config.json').read_text(encoding='utf-8'))
         c['keywords']=['Korean proxy', 'Korea shipping']
+        c['search_mode']='channels'
         c['sources']=c['sources'][:1]
         c['sources'][0].pop('queries', None)
         row={'url':'https://reddit.com/r/kpophelp/comments/test', 'title':'Can you recommend Korean proxy shipping?', 'description':'How can I buy goods?'}

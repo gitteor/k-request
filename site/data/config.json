@@ -1,8 +1,26 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "keywords": [
-    "Korean proxy recommendation",
-    "Korea only shipping help"
+    "\"Korean proxy\" \"looking for\"",
+    "\"Korean proxy\" recommend",
+    "\"Korean address\" buying",
+    "\"Korea\" \"doesn't ship\"",
+    "\"Korea\" \"international shipping\" help",
+    "\"Weverse\" shipping help",
+    "\"Bunjang\" buy help",
+    "\"kaddy\" recommendation",
+    "\"manhwa\" merch buy",
+    "\"webtoon\" merch shipping",
+    "\"BL\" \"Korean\" merch",
+    "\"Bomtoon\" merch buy",
+    "\"Lezhin\" merch shipping",
+    "\"Olive Young\" \"Korea\" shipping",
+    "\"Korean\" cosmetics forwarding",
+    "\"Musinsa\" shipping help",
+    "\"Korean\" plush proxy",
+    "\"Korea\" exclusive buy overseas",
+    "한국 배송대행 추천",
+    "한국 굿즈 해외 구매"
   ],
   "exclude": [
     "sponsored",
@@ -136,8 +154,9 @@
       ]
     }
   ],
-  "freshness": "pw",
+  "freshness": "pm",
   "min_score": 75,
   "retention_days": 90,
-  "max_queries": 30
+  "max_queries": 30,
+  "search_mode": "web"
 }

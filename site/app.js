@@ -15,10 +15,10 @@ const stateKey = p => 'krequest:lead:' + p.id;
 const leadState = p => {const value=localStorage.getItem(stateKey(p));return value || (localStorage.getItem('post:'+p.title+' ↗')==='done'?'done':'new');};
 function render() {
   const term = $('search').value.trim().toLowerCase(), tier=$('tier').value, state=$('state').value;
-  let posts=dataset.posts.filter(p=>(!tier||p.tier===tier)&&(!state||leadState(p)===state)&&(!term||`${p.title} ${p.excerpt}`.toLowerCase().includes(term))&&(!$('source').value||p.source===$('source').value)&&p.score>=Number($('score').value));
+  let posts=dataset.posts.filter(p=>(!tier||(tier==='actionable'?['priority','followup'].includes(p.tier):p.tier===tier))&&(!state||leadState(p)===state)&&(!term||`${p.title} ${p.excerpt}`.toLowerCase().includes(term))&&(!$('source').value||p.source===$('source').value)&&p.score>=Number($('score').value));
   posts.sort((a,b)=>$('sort').value==='score'?b.score-a.score:(Date.parse(b.source_date)||0)-(Date.parse(a.source_date)||0));
   const total=posts.length;
-  if(tier==='priority') posts=posts.slice(0,20);
+  if(['priority','actionable'].includes(tier)) posts=posts.slice(0,20);
   $('count').textContent=total>posts.length?`${posts.length} / ${total}`:total;
   $('posts').innerHTML=posts.length?posts.map(p=>`<article class="post"><div><div class="post-meta"><span class="channel">${esc(p.source)}</span><span>${esc(p.category||'기존 수집')}</span></div><h3><a href="${esc(safeURL(p.url))}" target="_blank" rel="noopener noreferrer">${esc(p.title)} ↗</a></h3><p>${esc(p.excerpt)}</p><div class="tags"><span class="tag">${esc(p.decision||'재분류 대기')}</span></div><p class="evidence">요청 단서: <b>${esc(p.evidence?.request||'불명확')}</b> · 배송 장벽: <b>${esc(p.evidence?.barrier||'불명확')}</b></p><div class="post-dates">검색엔진 날짜 ${esc(date(p.source_date))} · 최초 발견 ${esc(date(p.first_seen))}<br>검색 요약에는 댓글이 섞일 수 있습니다. 원문에서 작성일과 미해결 요청을 확인하세요.</div><label class="lead-state">처리 상태 <select data-lead="${esc(p.id)}">${[['new','미확인'],['viewed','확인함'],['replied','답변함'],['done','완료'],['irrelevant','무관함']].map(([v,l])=>`<option value="${v}" ${leadState(p)===v?'selected':''}>${l}</option>`).join('')}</select></label></div><div class="rank ${p.tier==='priority'?'high':''}">단서 점수<strong>${Number(p.score)}</strong>/ 100</div></article>`).join(''):`<div class="empty"><h3>조건에 맞는 후보가 없습니다</h3><p>목표 수량을 채우기 위해 오래되거나 무관한 글을 추가하지 않습니다. 날짜·의도 확인함도 살펴보세요.</p></div>`;
   const fresh=dataset.posts.filter(p=>p.tier==='priority'&&day(p.first_seen)===day(new Date())).length;
@@ -30,7 +30,8 @@ function render() {
 function renderSettings() {
   $('keywords').value=config.keywords.join('\n');$('exclude').value=config.exclude.join('\n');
   $('freshness').value=config.freshness;$('min-score').value=config.min_score;
-  renderSources();
+  $('search-mode').value=config.search_mode||'channels';
+  renderSources();renderSearchPreview();
   $('budget').textContent=`하루 검색 최대 ${config.max_queries}개 · 재시도 포함 하루 32회 / 월 1,000회 제한. 7일 이내 우선 후보, 8~30일 후속 확인, 날짜 불명확은 별도 검토. 기간을 자동 확장하지 않습니다.`;
   const match=location.hostname.match(/^([^.]+)\.github\.io$/);
   if(match)$('repo').value=`${match[1]}/${location.pathname.split('/').filter(Boolean)[0]||match[1]+'.github.io'}`;
@@ -41,7 +42,26 @@ function renderSources() {
 function readSources(){return [...document.querySelectorAll('[data-source-row]')].map(row=>{const get=k=>row.querySelector(`[data-field="${k}"]`);return {name:get('name').value.trim(),domain:get('domain').value.trim(),category:get('category').value.trim(),enabled:get('enabled').checked,queries:get('queries').value.split('\n').map(v=>v.trim()).filter(Boolean)};});}
 document.addEventListener('change',e=>{if(e.target.matches('[data-lead]')){localStorage.setItem('krequest:lead:'+e.target.dataset.lead,e.target.value);render();}});
 document.addEventListener('click',e=>{if(e.target.matches('[data-remove-source]')){config.sources=readSources();config.sources.splice(Number(e.target.dataset.removeSource),1);renderSources();}});
-$('add-source').addEventListener('click',()=>{config.sources=readSources();if(config.sources.length>=20)return;config.sources.push({name:'새 채널',domain:'',enabled:true,category:'기타',queries:config.keywords});renderSources();});
+$('add-source').addEventListener('click',()=>{config.sources=readSources();if(config.sources.length>=20)return;config.sources.push({name:'새 채널',domain:'',enabled:true,category:'기타',queries:$('keywords').value.split('\n').map(s=>s.trim()).filter(Boolean)});renderSources();});
+function searchExpression(q, domain, excludes) {
+ return [domain?'site:'+domain:'', q, ...excludes.map(t=>'-"'+t.replace(/["\\\r\n]/g,' ').trim()+'"')].filter(Boolean).join(' ');
+}
+function renderSearchPreview() {
+ if(!config)return;
+ const lines=id=>$(id).value.split('\n').map(s=>s.trim()).filter(Boolean);
+ const isWeb=$('search-mode').value==='web';
+ $('channel-controls').hidden=isWeb;
+ const tasks=isWeb?lines('keywords').map(q=>({q,domain:''})):readSources().filter(s=>s.enabled).flatMap(s=>s.queries.map(q=>({q,domain:s.domain})));
+ const period={pd:'d',pw:'w',pm:'m',py:'y'}[$('freshness').value];
+ $('search-preview').innerHTML=tasks.map(t=>{const q=searchExpression(t.q,t.domain,lines('exclude'));const u=new URL('https://www.google.com/search');u.searchParams.set('q',q);u.searchParams.set('tbs','qdr:'+period);return `<li><code>${esc(q)}</code> <a href="${esc(u.href)}" target="_blank" rel="noopener noreferrer">Google에서 확인 ↗</a></li>`;}).join('');
+}
+function renderDiagnostics() {
+ const reports=dataset.query_report||[];
+ const counts=dataset.quality?.counts||{};
+ $('diagnostics').innerHTML=`<h3>최근 실행 진단</h3><p>검색 ${dataset.queries||0}회 · 검색엔진 반환 ${reports.reduce((n,r)=>n+r.fetched,0)}건 (중복 포함) · 우선 후보 ${counts.priority||0}건 · 후속 확인 ${counts.followup||0}건 · 날짜·의도 확인 ${counts.review||0}건</p><details><summary>실행한 검색식과 결과 수</summary><ul>${reports.map(r=>`<li>${esc(r.query)} — 반환 ${r.fetched}건 / 우선 ${r.priority}건 / 후속 ${r.followup||0}건</li>`).join('')}</ul></details>`;
+}
+$('settings-form').addEventListener('input',renderSearchPreview);
+$('settings-form').addEventListener('change',renderSearchPreview);
 async function load() {
   $('refresh').disabled = true;
   try {
@@ -60,16 +80,16 @@ async function load() {
     $('last').textContent = dataset.last_success ? date(dataset.last_success) : '아직 없음';
     const selected=$('source').value;
     $('source').innerHTML='<option value="">전체 채널</option>'+[...new Set(dataset.posts.map(p=>p.source))].map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('');
-    $('source').value=selected; render();
+    $('source').value=selected; render();renderDiagnostics();
   } catch(e) { $('status').textContent='불러오기 실패 · '+e.message; } finally {$('refresh').disabled=false;}
 }
 function editedConfig() {
   if (!config) throw new Error('설정을 먼저 불러와 주세요.');
   const lines=id=>[...new Set($(id).value.split('\n').map(s=>s.trim()).filter(Boolean))];
-  const c={...config,keywords:lines('keywords'),exclude:lines('exclude'),freshness:$('freshness').value,min_score:Number($('min-score').value),sources:readSources()};
+  const c={...config,keywords:lines('keywords'),exclude:lines('exclude'),search_mode:$('search-mode').value,freshness:$('freshness').value,min_score:Number($('min-score').value),sources:readSources()};
   if(!c.keywords.length || c.keywords.length>30 || [...c.keywords,...c.exclude].some(s=>s.length>200)) throw new Error('검색어는 1~30개, 각 표현은 200자 이하여야 합니다.');
   if(c.sources.some(s=>!s.name||!/^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?:\/[a-zA-Z0-9_/-]+)?$/.test(s.domain)||!s.queries.length||s.queries.length>30||s.queries.some(q=>q.length>200))) throw new Error('채널 이름, 도메인과 검색식 1~30개를 확인하세요.');
-  if(!c.sources.some(s=>s.enabled)) throw new Error('채널을 하나 이상 선택하세요.');
+  if(c.search_mode==='channels'&&!c.sources.some(s=>s.enabled)) throw new Error('채널을 하나 이상 선택하세요.');
   if(!Number.isInteger(c.min_score)||c.min_score<0||c.min_score>100) throw new Error('관련도는 0~100 정수로 입력하세요.');
   return c;
 }
