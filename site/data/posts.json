@@ -1,6 +1,727 @@
 {
   "posts": [
     {
+      "id": "aa33adb3c766a0cccbd7",
+      "url": "https://apify.com/magenta_courser/taobao-price-monitor",
+      "title": "Taobao Scraper & Price Monitor - Keywords, Shops, Changes · Apify",
+      "excerpt": "The Actor retries twice with a new proxy session and then writes a free status row with status: \"blocked\". It does not solve captchas or sliders and does not work around the refusal. In our tests about 250 datacenter requests (104 of them in a single run) passed without a refusal; with residential proxies 1 of 64 requests was refused and passed on retry. Taobao converts the price only for some visitor countries. With a South Korean residential proxy the rows carry KRW; with US proxies they carry CNY only.",
+      "source": "apify.com",
+      "category": "웹 검색",
+      "keywords": [
+        "\"Korean proxy\" shipping"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-11-15T07:57:51",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "제외 표현",
+      "evidence": {
+        "context": "Korean",
+        "request": "",
+        "barrier": "proxy",
+        "purchase": ""
+      },
+      "age_days": 2.0,
+      "reasons": [
+        "제외 표현",
+        "배송·구매대행 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "65d2a5f5f6e235f4fb0b",
+      "url": "https://dowame.com/blog/how-to-shop-naver-shopping-foreigner-korea",
+      "title": "How to Buy from Naver Shopping as a Foreigner (2026) | DOWAME",
+      "excerpt": "Naver Shopping needs Korean ID verification and a Korean card. Send us the link: we order with ours and deliver to your hotel or ship abroad. Price shown first.",
+      "source": "dowame.com",
+      "category": "웹 검색",
+      "keywords": [
+        "\"Korea\" \"international shipping\" help"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-11-17T04:30:57",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 100,
+      "tier": "priority",
+      "decision": "최근 7일 · 요청과 구매 장벽 단서",
+      "evidence": {
+        "context": "Korean",
+        "request": "How to",
+        "barrier": "Korean card",
+        "purchase": "Buy"
+      },
+      "age_days": 0.1,
+      "reasons": [
+        "최근 7일 · 요청과 구매 장벽 단서",
+        "배송·구매대행 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "1953026258ed6507dca0",
+      "url": "https://www.visualcapitalist.com/ranked-most-least-trade-dependent-countries",
+      "title": "Ranked: The World’s Most and Least Trade-Dependent Countries",
+      "excerpt": "The most striking flips to China came among U.S. partners in Asia, with proximity and cheaper goods being the driving factors. Japan, South Korea, Taiwan, Singapore, the Philippines, Thailand, and Malaysia all traded most with the U.S.",
+      "source": "www.visualcapitalist.com",
+      "category": "웹 검색",
+      "keywords": [
+        "\"Korea\" \"international shipping\" help"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-11-09T09:54:23",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "구매·대행 요청 근거 부족",
+      "evidence": {
+        "context": "Korea",
+        "request": "",
+        "barrier": "",
+        "purchase": "goods"
+      },
+      "age_days": 7.9,
+      "reasons": [
+        "구매·대행 요청 근거 부족",
+        "구매 관심 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "bd80757181e75ff102a1",
+      "url": "https://shop.weverse.io/en/shop/MXN/artists/2/notices/14954",
+      "title": "[Weverse US] 2026 Weverse BLACK FRIDAY (US)N",
+      "excerpt": "- For shipping to P.O. Box, you must use the USPS Ground Advantage shipping option during the checkout.",
+      "source": "shop.weverse.io",
+      "category": "웹 검색",
+      "keywords": [
+        "\"Weverse\" shipping help"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-11-12T20:53:00",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "구매·대행 요청 근거 부족",
+      "evidence": {
+        "context": "Weverse",
+        "request": "",
+        "barrier": "",
+        "purchase": ""
+      },
+      "age_days": 4.5,
+      "reasons": [
+        "구매·대행 요청 근거 부족",
+        "구매 관심 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "d4207a63a06bb058fcdd",
+      "url": "https://gist.github.com/kawainime/8d878d64a4563a540e2968df1c2ab055",
+      "title": "Pengetahuan.md - Discover gists - GitHub",
+      "excerpt": "GitHub Gist: instantly share code, notes, and snippets.",
+      "source": "gist.github.com",
+      "category": "웹 검색",
+      "keywords": [
+        "\"manhwa\" merch buy"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-10-29T13:38:56",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "한국 구매 맥락 부족",
+      "evidence": {
+        "context": "",
+        "request": "",
+        "barrier": "",
+        "purchase": ""
+      },
+      "age_days": 18.8,
+      "reasons": [
+        "한국 구매 맥락 부족",
+        "구매 관심 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "15539a1ec3804e49a11d",
+      "url": "https://gist.github.com/kawainime/8d878d64a4563a540e2968df1c2ab055?permalink_comment_id=6259323",
+      "title": "Pengetahuan.md · GitHub",
+      "excerpt": "GitHub Gist: instantly share code, notes, and snippets.",
+      "source": "gist.github.com",
+      "category": "웹 검색",
+      "keywords": [
+        "\"webtoon\" merch shipping"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-10-18T00:00:00",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "한국 구매 맥락 부족",
+      "evidence": {
+        "context": "",
+        "request": "",
+        "barrier": "",
+        "purchase": ""
+      },
+      "age_days": 30.3,
+      "reasons": [
+        "한국 구매 맥락 부족",
+        "구매 관심 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "70c01b50470bd1a131f7",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/webtoon-wbtn-q3-2026-earnings-call-transcript",
+      "title": "WEBTOON (WBTN) Q3 2026 Earnings Call Transcript | The Motley Fool",
+      "excerpt": "Korea growth offset Japan's slide while advertising scaled quickly.",
+      "source": "www.fool.com",
+      "category": "웹 검색",
+      "keywords": [
+        "\"webtoon\" merch shipping"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-11-10T13:18:04",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "구매·대행 요청 근거 부족",
+      "evidence": {
+        "context": "Korea",
+        "request": "",
+        "barrier": "",
+        "purchase": ""
+      },
+      "age_days": 6.8,
+      "reasons": [
+        "구매·대행 요청 근거 부족",
+        "구매 관심 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "22d42b55b614bcb6c23f",
+      "url": "https://www.lexology.com/library/detail.aspx?g=69866ece-760a-4d63-a2f7-1e40f2991b38",
+      "title": "A Copycat Korean Dessert Store in Shanghai: Why Overseas Trademark Filings Cannot Wait - Lexology",
+      "excerpt": "Korean food and beverage franchises have faced similar problems before. The dessert café brand Seolbing entered China in 2015 but was blocked by similar marks registered earlier by local businesses.",
+      "source": "www.lexology.com",
+      "category": "웹 검색",
+      "keywords": [
+        "\"BL\" \"Korean\" merch"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-11-16T00:00:00",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "구매·대행 요청 근거 부족",
+      "evidence": {
+        "context": "Korean",
+        "request": "",
+        "barrier": "",
+        "purchase": ""
+      },
+      "age_days": 1.3,
+      "reasons": [
+        "구매·대행 요청 근거 부족",
+        "구매 관심 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "ef38fe4aa3535eb3620b",
+      "url": "https://apify.com/magenta_courser/oliveyoung-product-scraper",
+      "title": "Olive Young Scraper - K-Beauty Products, Prices, Ingredients · Apify",
+      "excerpt": "The Korean store is reached through a residential proxy in South Korea (default). Datacenter IPs are mostly blocked there.",
+      "source": "apify.com",
+      "category": "웹 검색",
+      "keywords": [
+        "\"Korea\" exclusive buy overseas",
+        "\"Korean\" cosmetics forwarding",
+        "\"Korean\" plush proxy",
+        "\"Olive Young\" \"Korea\" shipping"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-11-15T14:14:14",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "제외 표현",
+      "evidence": {
+        "context": "Olive Young",
+        "request": "",
+        "barrier": "proxy",
+        "purchase": ""
+      },
+      "age_days": 1.7,
+      "reasons": [
+        "제외 표현",
+        "배송·구매대행 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "cdd1197205c8b60fd336",
+      "url": "https://apify.com/magenta_courser/oliveyoung-reviews-scraper",
+      "title": "Olive Young Reviews Scraper - K-Beauty Reviews (올리브영 리뷰) · Apify",
+      "excerpt": "The Korean store is reached through a residential proxy in South Korea (default). Datacenter IPs are mostly blocked there.",
+      "source": "apify.com",
+      "category": "웹 검색",
+      "keywords": [
+        "\"Korea\" exclusive buy overseas",
+        "\"Korean\" cosmetics forwarding",
+        "\"Korean\" plush proxy",
+        "\"Olive Young\" \"Korea\" shipping"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-11-15T14:14:49",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "제외 표현",
+      "evidence": {
+        "context": "Olive Young",
+        "request": "",
+        "barrier": "proxy",
+        "purchase": ""
+      },
+      "age_days": 1.7,
+      "reasons": [
+        "제외 표현",
+        "배송·구매대행 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "2fff44c87d1aa554792c",
+      "url": "https://apify.com/magenta_courser/korea-commerce-mcp",
+      "title": "Naver Shopping, Daiso MCP - Claude, ChatGPT, Cursor · Apify",
+      "excerpt": "Which tools need a residential proxy? search_naver_shopping and get_oliveyoung_ranking with market korea send their request through the Apify RESIDENTIAL proxy with country KR, because those sites refuse most data-center IPs. If your Apify plan does not include residential proxies, these two tools answer with a clear error and charge nothing; all other tools work on every plan.",
+      "source": "apify.com",
+      "category": "웹 검색",
+      "keywords": [
+        "\"Olive Young\" \"Korea\" shipping"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-11-15T09:55:06",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "제외 표현",
+      "evidence": {
+        "context": "korea",
+        "request": "need a ",
+        "barrier": "proxy",
+        "purchase": ""
+      },
+      "age_days": 1.9,
+      "reasons": [
+        "제외 표현",
+        "배송·구매대행 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "8e60b7f07a98029e6f9b",
+      "url": "https://apify.com/enchanting_ground/oliveyoung-bestsellers/api/python",
+      "title": "Olive Young Best Sellers — K-Beauty Rankings, Prices & Stock API in Python · Apify",
+      "excerpt": "Scrape Olive Young reviews from both stores — Korea (oliveyoung.co.kr) and Olive Young Global. Goes past the 100-review page cap: 500 per sort on the Korean store, thousands on Global.",
+      "source": "apify.com",
+      "category": "웹 검색",
+      "keywords": [
+        "\"Olive Young\" \"Korea\" shipping"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-11-10T02:22:41",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "구매·대행 요청 근거 부족",
+      "evidence": {
+        "context": "Olive Young",
+        "request": "",
+        "barrier": "",
+        "purchase": ""
+      },
+      "age_days": 7.2,
+      "reasons": [
+        "구매·대행 요청 근거 부족",
+        "구매 관심 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "cb0d324284c886ac65e0",
+      "url": "https://apify.com/data_dino/coupang-product-scraper",
+      "title": "Coupang product scraper · Apify",
+      "excerpt": "Korean residential proxies built in, JSON or CSV.",
+      "source": "apify.com",
+      "category": "웹 검색",
+      "keywords": [
+        "\"Korean\" cosmetics forwarding"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-11-12T00:58:49",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "제외 표현",
+      "evidence": {
+        "context": "Korean",
+        "request": "",
+        "barrier": "proxies",
+        "purchase": ""
+      },
+      "age_days": 5.3,
+      "reasons": [
+        "제외 표현",
+        "배송·구매대행 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "95ab10b6a5fa1cd15d31",
+      "url": "https://cybersecuritynews.com/fbi-reveals-hackers-artex-ai-usage",
+      "title": "FBI Reveals How Hackers Use ARTEX AI Agents to Gain Privileged Access in Under Three Hours",
+      "excerpt": "The FBI has warned that hackers are using ARTEX AI agents to automate network attacks, with some intrusions reaching privileged access in under three hours.",
+      "source": "cybersecuritynews.com",
+      "category": "웹 검색",
+      "keywords": [
+        "\"Korean\" cosmetics forwarding",
+        "\"Korean\" plush proxy"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-11-14T12:08:05",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "한국 구매 맥락 부족",
+      "evidence": {
+        "context": "",
+        "request": "",
+        "barrier": "",
+        "purchase": ""
+      },
+      "age_days": 2.8,
+      "reasons": [
+        "한국 구매 맥락 부족",
+        "구매 관심 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "0adbb693c146786eeaa5",
+      "url": "https://apify.com/magenta_courser/naver-news-scraper",
+      "title": "Naver News Scraper: Korean News Search, Full Text & Rankings · Apify",
+      "excerpt": "Measured, not estimated. 10 articles with full text took 17.5 seconds at 256 MB, 10 of 10 texts read (run VV3yRjyacYH5eofNg, build 0.1.8, 2026-11-11, default datacenter proxy, no retries).",
+      "source": "apify.com",
+      "category": "웹 검색",
+      "keywords": [
+        "\"Korean\" cosmetics forwarding",
+        "\"Korean\" plush proxy"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-11-15T14:13:30",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "제외 표현",
+      "evidence": {
+        "context": "Korean",
+        "request": "",
+        "barrier": "proxy",
+        "purchase": ""
+      },
+      "age_days": 1.7,
+      "reasons": [
+        "제외 표현",
+        "배송·구매대행 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "b5a0ed57eae5e742150c",
+      "url": "https://global.musinsa.com/us/main/welcome",
+      "title": "MUSINSA",
+      "excerpt": "Korea’s no.1 fashion store. Shop the latest trends from Seoul.",
+      "source": "global.musinsa.com",
+      "category": "웹 검색",
+      "keywords": [
+        "\"Musinsa\" shipping help"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-10-23T00:00:00",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "구매·대행 요청 근거 부족",
+      "evidence": {
+        "context": "MUSINSA",
+        "request": "",
+        "barrier": "",
+        "purchase": ""
+      },
+      "age_days": 25.3,
+      "reasons": [
+        "구매·대행 요청 근거 부족",
+        "구매 관심 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "825ac170893b8bd78ef1",
+      "url": "https://global.musinsa.com/tw/products/4323440",
+      "title": "MUSINSA | MUSINSA STANDARD [City Leisure] Onion Padding Belted Cargo Pants [Black]",
+      "excerpt": "Explore MUSINSA STANDARD's [City Leisure] Onion Padding Belted Cargo Pants [Black] from trending K-fashion brands at MUSINSA. Enjoy worldwide shipping and find the best deals, guaranteed!",
+      "source": "global.musinsa.com",
+      "category": "웹 검색",
+      "keywords": [
+        "\"Musinsa\" shipping help"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-11-13T06:33:54",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "구매·대행 요청 근거 부족",
+      "evidence": {
+        "context": "MUSINSA",
+        "request": "",
+        "barrier": "",
+        "purchase": ""
+      },
+      "age_days": 4.1,
+      "reasons": [
+        "구매·대행 요청 근거 부족",
+        "구매 관심 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "216989ef31d20f57a977",
+      "url": "https://biz.chosun.com/en/en-retail/2026/11/17/RUMQOSF2HNDL7B6FLIFGU4HYF4",
+      "title": "Convenience stores revamp lunchboxes with idol menus and shopping perks to draw shoppers - CHOSUNBIZ",
+      "excerpt": "GS25, a convenience-store chain run by GS Retail, has paired its lunchboxes with fashion and beauty shopping perks. To mark this month's K-Sale Festa, the 6,900-won lunchbox comes with a 5,000-won coupon valid at Musinsa's offline stores nationwide.",
+      "source": "biz.chosun.com",
+      "category": "웹 검색",
+      "keywords": [
+        "\"Musinsa\" shipping help"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-11-17T01:00:00",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "구매·대행 요청 근거 부족",
+      "evidence": {
+        "context": "Musinsa",
+        "request": "",
+        "barrier": "",
+        "purchase": ""
+      },
+      "age_days": 0.3,
+      "reasons": [
+        "구매·대행 요청 근거 부족",
+        "구매 관심 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "9e40298b359157a611e1",
+      "url": "https://github.com/dmarzzz/private-re-search/blob/main/anonymized-scraping-residential-proxies-privacy.md",
+      "title": "private-re-search/anonymized-scraping-residential-proxies-privacy.md at main · dmarzzz/private-re-search · GitHub",
+      "excerpt": "A \"residential\" IP is a real person's home or mobile connection. The supply chain that delivers those IPs to a scraper runs on a spectrum from thin consent to outright crime, and a buyer generally cannot verify where any individual IP came from.",
+      "source": "github.com",
+      "category": "웹 검색",
+      "keywords": [
+        "\"Korea\" exclusive buy overseas"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-11-14T11:48:02",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "제외 표현",
+      "evidence": {
+        "context": "",
+        "request": "",
+        "barrier": "proxies",
+        "purchase": ""
+      },
+      "age_days": 2.8,
+      "reasons": [
+        "제외 표현",
+        "배송·구매대행 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "1b79debbf3ebfdbcd186",
+      "url": "https://proxyrotator.com/free-proxy-list",
+      "title": "Free Proxy List - Live HTTP Proxies by Country, Updated Hourly",
+      "excerpt": "A live, auto-refreshing list of HTTPS proxy servers from around the world, free for anyone to use. This is a separate public directory, not our paid network. For proxies that stay online, see our managed rotating proxies with a pool of 100M+ ...",
+      "source": "proxyrotator.com",
+      "category": "웹 검색",
+      "keywords": [
+        "\"Korea\" exclusive buy overseas"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-11-17T07:45:01",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "인터넷 프록시·기술 서비스",
+      "evidence": {
+        "context": "",
+        "request": "",
+        "barrier": "Proxy",
+        "purchase": ""
+      },
+      "age_days": 0.0,
+      "reasons": [
+        "인터넷 프록시·기술 서비스",
+        "배송·구매대행 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "e80b6bbddd3cdd705580",
+      "url": "https://proxyempire.io/best-premium-residential-proxies",
+      "title": "Best Premium Residential Proxies in 2026: 13 Providers Compared",
+      "excerpt": "Residential, mobile, ISP and datacenter proxies for scraping, ad verification, SEO monitoring and multi-account work. Choose from 30M+ ethically sourced residential IPs and 4M+ 4G/5G mobile IPs in 170+ countries, target by country, city, ZIP, ISP or carrier, and connect over HTTP(S) or SOCKS5 with 99.9% uptime.",
+      "source": "proxyempire.io",
+      "category": "웹 검색",
+      "keywords": [
+        "한국 배송대행 추천"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-10-18T21:06:10",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "제외 표현",
+      "evidence": {
+        "context": "",
+        "request": "",
+        "barrier": "Proxies",
+        "purchase": ""
+      },
+      "age_days": 29.5,
+      "reasons": [
+        "제외 표현",
+        "배송·구매대행 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "2ea04a32401416c8c929",
+      "url": "https://www.couponswift.com/redscrape/coupons",
+      "title": "RedScrape Coupons & Discounts for Web Scraping Proxies",
+      "excerpt": "Explore RedScrape coupons and deals for web scraping proxies, with residential volume prices, monthly discount conditions and first-order eligibility",
+      "source": "www.couponswift.com",
+      "category": "웹 검색",
+      "keywords": [
+        "한국 굿즈 해외 구매"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-11-03T14:48:55",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "인터넷 프록시·기술 서비스",
+      "evidence": {
+        "context": "",
+        "request": "",
+        "barrier": "Proxies",
+        "purchase": "order"
+      },
+      "age_days": 13.7,
+      "reasons": [
+        "인터넷 프록시·기술 서비스",
+        "배송·구매대행 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
+      "id": "800092de6b1c811d802f",
+      "url": "https://www.scraperapi.com/web-scraping/proxy",
+      "title": "The 11 Best Proxies for Web Scraping [2026 Guide]",
+      "excerpt": "One standout feature of ScraperAPI is its ability to handle large-scale scraping tasks. With an extensive proxy pool of over 150 million IPs, including residential, datacenter, and mobile IPs, it allows you to scrape the internet with unparalleled flexibility.",
+      "source": "www.scraperapi.com",
+      "category": "웹 검색",
+      "keywords": [
+        "한국 굿즈 해외 구매"
+      ],
+      "first_seen": "2026-11-17T07:59:38.258251+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
+      "expanded_search": false,
+      "source_date": "2026-11-06T07:58:39",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
+      "score": 0,
+      "tier": "excluded",
+      "decision": "제외 표현",
+      "evidence": {
+        "context": "",
+        "request": "",
+        "barrier": "Proxies",
+        "purchase": ""
+      },
+      "age_days": 11.0,
+      "reasons": [
+        "제외 표현",
+        "배송·구매대행 단서"
+      ],
+      "assessment_version": 2
+    },
+    {
       "id": "83a0d05b23f9102fa08b",
       "url": "https://shop.weverse.io/en/shop/USD/artists/2/notices/14954",
       "title": "[Weverse US] 2026 Weverse BLACK FRIDAY (US)",
@@ -11,7 +732,7 @@
         "\"Weverse\" shipping help"
       ],
       "first_seen": "2026-11-16T06:37:45.764030+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-13T03:13:53",
       "content_updated": "2026-11-16T06:37:45.764030+00:00",
@@ -24,7 +745,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 3.1,
+      "age_days": 4.2,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -55,7 +776,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 20.3,
+      "age_days": 21.3,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -86,7 +807,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 0.1,
+      "age_days": 1.1,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -117,7 +838,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 0.5,
+      "age_days": 1.5,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -148,7 +869,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 9.4,
+      "age_days": 10.5,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -166,7 +887,7 @@
         "\"BL\" \"Korean\" merch"
       ],
       "first_seen": "2026-11-16T06:37:45.764030+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-15T05:30:15",
       "content_updated": "2026-11-16T06:37:45.764030+00:00",
@@ -179,7 +900,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 1.0,
+      "age_days": 2.1,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -210,7 +931,7 @@
         "barrier": "",
         "purchase": "skincare"
       },
-      "age_days": 3.0,
+      "age_days": 4.0,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -241,7 +962,7 @@
         "barrier": "proxies",
         "purchase": "skincare"
       },
-      "age_days": 3.0,
+      "age_days": 4.0,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -272,7 +993,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 10.3,
+      "age_days": 11.4,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -303,7 +1024,7 @@
         "barrier": "",
         "purchase": "Cosmetics"
       },
-      "age_days": 22.6,
+      "age_days": 23.7,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -334,7 +1055,7 @@
         "barrier": "Proxies",
         "purchase": ""
       },
-      "age_days": 19.3,
+      "age_days": 20.3,
       "reasons": [
         "작성자 구매·배송 의사 확인 필요",
         "배송·구매대행 단서"
@@ -352,7 +1073,7 @@
         "\"Musinsa\" shipping help"
       ],
       "first_seen": "2026-11-16T06:37:45.764030+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-09T00:00:00",
       "content_updated": "2026-11-16T06:37:45.764030+00:00",
@@ -365,7 +1086,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 7.3,
+      "age_days": 8.3,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -383,7 +1104,7 @@
         "\"Korean\" plush proxy"
       ],
       "first_seen": "2026-11-16T06:37:45.764030+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-14T06:23:26",
       "content_updated": "2026-11-16T06:37:45.764030+00:00",
@@ -396,7 +1117,7 @@
         "barrier": "proxies",
         "purchase": ""
       },
-      "age_days": 2.0,
+      "age_days": 3.1,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -414,7 +1135,7 @@
         "\"Korean\" plush proxy"
       ],
       "first_seen": "2026-11-16T06:37:45.764030+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-06T10:29:58",
       "content_updated": "2026-11-16T06:37:45.764030+00:00",
@@ -427,7 +1148,7 @@
         "barrier": "proxy",
         "purchase": ""
       },
-      "age_days": 9.8,
+      "age_days": 10.9,
       "reasons": [
         "인터넷 프록시·기술 서비스",
         "배송·구매대행 단서"
@@ -438,7 +1159,7 @@
       "id": "a4a541ed0b4e7ef3ad74",
       "url": "https://www.bbc.com/news/articles/cqdj1ellpd70o",
       "title": "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
-      "excerpt": "State-sponsored hackers from North Korea have taken more than $400 million in cryptocurrency by using fake video calls to steal people's identities, US authorities say.",
+      "excerpt": "More than 900 victims are thought to have fallen prey to the FaceStealer scheme in the last 18 months.",
       "source": "www.bbc.com",
       "category": "웹 검색",
       "keywords": [
@@ -446,22 +1167,22 @@
         "\"Korean\" plush proxy"
       ],
       "first_seen": "2026-11-16T06:37:45.764030+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-13T04:43:24",
-      "content_updated": "2026-11-16T06:37:45.764030+00:00",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
       "score": 0,
       "tier": "excluded",
-      "decision": "제외 표현",
+      "decision": "구매·대행 요청 근거 부족",
       "evidence": {
         "context": "Korean",
         "request": "",
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 3.1,
+      "age_days": 4.1,
       "reasons": [
-        "제외 표현",
+        "구매·대행 요청 근거 부족",
         "구매 관심 단서"
       ],
       "assessment_version": 2
@@ -490,7 +1211,7 @@
         "barrier": "proxies",
         "purchase": ""
       },
-      "age_days": 3.0,
+      "age_days": 4.1,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -522,7 +1243,7 @@
         "barrier": "proxy",
         "purchase": "order"
       },
-      "age_days": 7.3,
+      "age_days": 8.3,
       "reasons": [
         "개별 게시글 아님",
         "배송·구매대행 단서"
@@ -553,7 +1274,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 15.5,
+      "age_days": 16.6,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -584,7 +1305,7 @@
         "barrier": "proxy",
         "purchase": "Buy"
       },
-      "age_days": 11.1,
+      "age_days": 12.1,
       "reasons": [
         "8~30일 · 아직 필요한지 확인",
         "배송·구매대행 단서"
@@ -602,7 +1323,7 @@
         "\"Bunjang\" buy help"
       ],
       "first_seen": "2026-11-15T06:40:57.218812+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-22T14:21:00",
       "content_updated": "2026-11-15T06:40:57.218812+00:00",
@@ -615,7 +1336,7 @@
         "barrier": "",
         "purchase": "Buy"
       },
-      "age_days": 24.7,
+      "age_days": 25.7,
       "reasons": [
         "작성자 구매·배송 의사 확인 필요",
         "구매 관심 단서"
@@ -647,7 +1368,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 5.1,
+      "age_days": 6.1,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -678,7 +1399,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 29.3,
+      "age_days": 30.3,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -709,7 +1430,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 29.5,
+      "age_days": 30.5,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -728,7 +1449,7 @@
         "\"Korean\" plush proxy"
       ],
       "first_seen": "2026-11-15T06:40:57.218812+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-13T01:38:27",
       "content_updated": "2026-11-15T06:40:57.218812+00:00",
@@ -741,7 +1462,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 3.2,
+      "age_days": 4.3,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -759,7 +1480,7 @@
         "\"BL\" \"Korean\" merch"
       ],
       "first_seen": "2026-11-15T06:40:57.218812+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-14T02:37:24",
       "content_updated": "2026-11-15T06:40:57.218812+00:00",
@@ -772,7 +1493,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 2.2,
+      "age_days": 3.2,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -803,7 +1524,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 3.0,
+      "age_days": 4.1,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -834,7 +1555,7 @@
         "barrier": "",
         "purchase": "배송"
       },
-      "age_days": 23.8,
+      "age_days": 24.8,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -865,7 +1586,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 6.2,
+      "age_days": 7.2,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -896,7 +1617,7 @@
         "barrier": "",
         "purchase": "skincare"
       },
-      "age_days": 2.7,
+      "age_days": 3.7,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -927,7 +1648,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 2.3,
+      "age_days": 3.3,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -958,7 +1679,7 @@
         "barrier": "Proxy",
         "purchase": "Buy"
       },
-      "age_days": 17.7,
+      "age_days": 18.8,
       "reasons": [
         "8~30일 · 아직 필요한지 확인",
         "배송·구매대행 단서"
@@ -989,7 +1710,7 @@
         "barrier": "proxies",
         "purchase": ""
       },
-      "age_days": 3.1,
+      "age_days": 4.1,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -1008,10 +1729,10 @@
         "\"Korean\" plush proxy"
       ],
       "first_seen": "2026-11-15T06:40:57.218812+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-10T17:58:03",
-      "content_updated": "2026-11-16T06:37:45.764030+00:00",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
       "score": 0,
       "tier": "excluded",
       "decision": "제외 표현",
@@ -1021,7 +1742,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 5.5,
+      "age_days": 6.6,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -1052,7 +1773,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 1.2,
+      "age_days": 2.3,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -1070,7 +1791,7 @@
         "\"Korea\" exclusive buy overseas"
       ],
       "first_seen": "2026-11-15T06:40:57.218812+00:00",
-      "last_seen": "2026-11-15T06:40:57.218812+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-11T10:47:19",
       "content_updated": "2026-11-15T06:40:57.218812+00:00",
@@ -1083,7 +1804,7 @@
         "barrier": "Proxies",
         "purchase": ""
       },
-      "age_days": 4.8,
+      "age_days": 5.9,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -1101,7 +1822,7 @@
         "\"Korea\" exclusive buy overseas"
       ],
       "first_seen": "2026-11-15T06:40:57.218812+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-04T06:28:50",
       "content_updated": "2026-11-15T06:40:57.218812+00:00",
@@ -1114,7 +1835,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 12.0,
+      "age_days": 13.1,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -1145,7 +1866,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 14.3,
+      "age_days": 15.3,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -1155,18 +1876,18 @@
     {
       "id": "40d8c79282de9ac838b5",
       "url": "https://proxywing.com/free-proxy-list",
-      "title": "Free Proxy List: 2,154 Free Proxy Server IPs | ProxyWing",
-      "excerpt": "Free proxies list with 2,154 HTTP, HTTPS and SOCKS5 proxies, 154 online now and re-checked every 5 minutes. Filter by country and speed, download as TXT or use the free API.",
+      "title": "Free Proxy List: 2,131 Free Proxy Server IPs | ProxyWing",
+      "excerpt": "Free proxies list with 2,131 HTTP, HTTPS and SOCKS5 proxies, 131 online now and re-checked every 5 minutes. Filter by country and speed, download as TXT or use the free API.",
       "source": "proxywing.com",
       "category": "웹 검색",
       "keywords": [
         "한국 배송대행 추천"
       ],
       "first_seen": "2026-11-15T06:40:57.218812+00:00",
-      "last_seen": "2026-11-15T06:40:57.218812+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-14T18:30:26",
-      "content_updated": "2026-11-15T06:40:57.218812+00:00",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
       "score": 0,
       "tier": "excluded",
       "decision": "인터넷 프록시·기술 서비스",
@@ -1176,7 +1897,7 @@
         "barrier": "Proxy",
         "purchase": ""
       },
-      "age_days": 1.5,
+      "age_days": 2.6,
       "reasons": [
         "인터넷 프록시·기술 서비스",
         "배송·구매대행 단서"
@@ -1208,7 +1929,7 @@
         "barrier": "Proxy",
         "purchase": ""
       },
-      "age_days": 31.1,
+      "age_days": 32.2,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -1223,10 +1944,11 @@
       "source": "www.buyandship.ph",
       "category": "웹 검색",
       "keywords": [
-        "\"Korea\" \"international shipping\" help"
+        "\"Korea\" \"international shipping\" help",
+        "\"Korea\" exclusive buy overseas"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-14T06:31:44.337120+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-05T05:25:04",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -1239,7 +1961,7 @@
         "barrier": "proxy",
         "purchase": "Buy"
       },
-      "age_days": 11.1,
+      "age_days": 12.1,
       "reasons": [
         "8~30일 · 아직 필요한지 확인",
         "배송·구매대행 단서"
@@ -1270,7 +1992,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 3.2,
+      "age_days": 4.2,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -1288,7 +2010,7 @@
         "\"Weverse\" shipping help"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-06T16:33:56",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -1301,7 +2023,7 @@
         "barrier": "",
         "purchase": "merchandise"
       },
-      "age_days": 9.6,
+      "age_days": 10.6,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -1319,7 +2041,7 @@
         "\"Weverse\" shipping help"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-09T06:58:00",
       "content_updated": "2026-11-16T06:37:45.764030+00:00",
@@ -1332,7 +2054,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 7.0,
+      "age_days": 8.0,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -1363,7 +2085,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 3.1,
+      "age_days": 4.2,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -1381,7 +2103,7 @@
         "\"Bunjang\" buy help"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-19T00:10:02",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -1394,7 +2116,7 @@
         "barrier": "Proxy",
         "purchase": ""
       },
-      "age_days": 28.3,
+      "age_days": 29.3,
       "reasons": [
         "작성자 구매·배송 의사 확인 필요",
         "배송·구매대행 단서"
@@ -1425,7 +2147,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 6.5,
+      "age_days": 7.5,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -1456,7 +2178,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 3.3,
+      "age_days": 4.3,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -1474,7 +2196,7 @@
         "\"manhwa\" merch buy"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-23T07:00:24",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -1487,7 +2209,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 24.0,
+      "age_days": 25.0,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -1506,10 +2228,10 @@
         "\"webtoon\" merch shipping"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-13T00:00:00",
-      "content_updated": "2026-11-16T06:37:45.764030+00:00",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
       "score": 0,
       "tier": "excluded",
       "decision": "한국 구매 맥락 부족",
@@ -1519,7 +2241,7 @@
         "barrier": "",
         "purchase": "purchase"
       },
-      "age_days": 3.3,
+      "age_days": 4.3,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -1537,7 +2259,7 @@
         "\"webtoon\" merch shipping"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-11T17:34:49",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -1550,7 +2272,7 @@
         "barrier": "",
         "purchase": "order"
       },
-      "age_days": 4.5,
+      "age_days": 5.6,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -1581,7 +2303,7 @@
         "barrier": "proxy",
         "purchase": ""
       },
-      "age_days": 28.2,
+      "age_days": 29.3,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -1599,7 +2321,7 @@
         "\"webtoon\" merch shipping"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-25T00:00:00",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -1612,7 +2334,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 22.3,
+      "age_days": 23.3,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -1630,7 +2352,7 @@
         "\"webtoon\" merch shipping"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-04T23:34:20",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -1643,7 +2365,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 11.3,
+      "age_days": 12.4,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -1661,7 +2383,7 @@
         "\"webtoon\" merch shipping"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-23T00:00:00",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -1674,7 +2396,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 24.3,
+      "age_days": 25.3,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -1692,7 +2414,7 @@
         "\"webtoon\" merch shipping"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-03T12:08:46",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -1705,7 +2427,7 @@
         "barrier": "",
         "purchase": "merchandise"
       },
-      "age_days": 12.8,
+      "age_days": 13.8,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -1723,7 +2445,7 @@
         "\"webtoon\" merch shipping"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-04T23:55:16",
       "content_updated": "2026-11-15T06:40:57.218812+00:00",
@@ -1736,7 +2458,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 11.3,
+      "age_days": 12.3,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -1754,7 +2476,7 @@
         "\"webtoon\" merch shipping"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-10T08:35:55",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -1767,7 +2489,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 5.9,
+      "age_days": 7.0,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -1785,7 +2507,7 @@
         "\"webtoon\" merch shipping"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-03T06:23:01",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -1798,7 +2520,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 13.0,
+      "age_days": 14.1,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -1816,7 +2538,7 @@
         "\"webtoon\" merch shipping"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-11T18:24:51",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -1829,7 +2551,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 4.5,
+      "age_days": 5.6,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -1860,7 +2582,7 @@
         "barrier": "",
         "purchase": "Buy"
       },
-      "age_days": 4.7,
+      "age_days": 5.8,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -1878,7 +2600,7 @@
         "\"webtoon\" merch shipping"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-28T11:36:16",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -1891,7 +2613,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 18.8,
+      "age_days": 19.8,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -1909,7 +2631,7 @@
         "\"webtoon\" merch shipping"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-02T05:58:27",
       "content_updated": "2026-11-16T06:37:45.764030+00:00",
@@ -1922,7 +2644,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 14.0,
+      "age_days": 15.1,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -1953,7 +2675,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 33.3,
+      "age_days": 34.3,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -1972,10 +2694,10 @@
         "\"Korean\" cosmetics forwarding"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-12T00:00:00",
-      "content_updated": "2026-11-16T06:37:45.764030+00:00",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
       "score": 0,
       "tier": "excluded",
       "decision": "제외 표현",
@@ -1985,7 +2707,7 @@
         "barrier": "",
         "purchase": "skincare"
       },
-      "age_days": 4.3,
+      "age_days": 5.3,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -2004,7 +2726,7 @@
         "\"Korean\" cosmetics forwarding"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-12T00:00:00",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -2017,7 +2739,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 4.3,
+      "age_days": 5.3,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -2028,7 +2750,7 @@
       "id": "05649c8cb8d3b8f05391",
       "url": "https://www.wethrift.com/codes/koreanskincare.nl",
       "title": "KoreanSkincare Discount Codes — Ranked by Real Results",
-      "excerpt": "Save on your order at Korean Skincare with coupon code NEW10.",
+      "excerpt": "The best KoreanSkincare discount code to try right now is SV15ESHAVANA. It leads all 30 codes here, ranked by what's actually worked at checkout.",
       "source": "www.wethrift.com",
       "category": "웹 검색",
       "keywords": [
@@ -2036,22 +2758,22 @@
         "\"Korean\" cosmetics forwarding"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-04T00:00:00",
-      "content_updated": "2026-11-16T06:37:45.764030+00:00",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
       "score": 0,
       "tier": "excluded",
-      "decision": "제외 표현",
+      "decision": "한국 구매 맥락 부족",
       "evidence": {
-        "context": "Korean",
+        "context": "",
         "request": "",
         "barrier": "",
-        "purchase": "order"
+        "purchase": ""
       },
-      "age_days": 12.3,
+      "age_days": 13.3,
       "reasons": [
-        "제외 표현",
+        "한국 구매 맥락 부족",
         "구매 관심 단서"
       ],
       "assessment_version": 2
@@ -2081,7 +2803,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 12.9,
+      "age_days": 14.0,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -2112,7 +2834,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 13.9,
+      "age_days": 14.9,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -2131,7 +2853,7 @@
         "\"Korean\" plush proxy"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-15T06:40:57.218812+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-13T05:02:36",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -2144,7 +2866,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 3.1,
+      "age_days": 4.1,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -2175,7 +2897,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 12.9,
+      "age_days": 14.0,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -2206,7 +2928,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 12.1,
+      "age_days": 13.2,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -2226,7 +2948,7 @@
         "\"Korean\" plush proxy"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-04T05:32:37",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -2239,7 +2961,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 12.0,
+      "age_days": 13.1,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -2270,7 +2992,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 5.5,
+      "age_days": 6.5,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -2301,7 +3023,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 2.8,
+      "age_days": 3.8,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -2333,7 +3055,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 16.7,
+      "age_days": 17.8,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -2351,7 +3073,7 @@
         "\"BL\" \"Korean\" merch"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-03T01:15:33",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -2364,7 +3086,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 13.2,
+      "age_days": 14.3,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -2395,7 +3117,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 5.7,
+      "age_days": 6.8,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -2414,7 +3136,7 @@
         "\"Korean\" cosmetics forwarding"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-09T13:17:38",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -2427,7 +3149,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 6.7,
+      "age_days": 7.8,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -2458,7 +3180,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 13.1,
+      "age_days": 14.1,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -2476,7 +3198,7 @@
         "\"BL\" \"Korean\" merch"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-13T00:27:31",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -2489,7 +3211,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 3.3,
+      "age_days": 4.3,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -2507,7 +3229,7 @@
         "\"BL\" \"Korean\" merch"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-05T15:31:13",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -2520,7 +3242,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 10.6,
+      "age_days": 11.7,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -2551,7 +3273,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 11.5,
+      "age_days": 12.6,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -2569,7 +3291,7 @@
         "\"Lezhin\" merch shipping"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-19T08:10:22",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -2582,7 +3304,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 27.9,
+      "age_days": 29.0,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -2613,7 +3335,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 11.4,
+      "age_days": 12.4,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -2631,7 +3353,7 @@
         "\"Olive Young\" \"Korea\" shipping"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-10T00:00:00",
       "content_updated": "2026-11-15T06:40:57.218812+00:00",
@@ -2644,7 +3366,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 6.3,
+      "age_days": 7.3,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -2675,7 +3397,7 @@
         "barrier": "",
         "purchase": "skincare"
       },
-      "age_days": 31.9,
+      "age_days": 32.9,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -2693,7 +3415,7 @@
         "\"Olive Young\" \"Korea\" shipping"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-09T00:48:01",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -2706,7 +3428,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 7.2,
+      "age_days": 8.3,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -2737,7 +3459,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 6.2,
+      "age_days": 7.2,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -2768,7 +3490,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 3.8,
+      "age_days": 4.8,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -2786,7 +3508,7 @@
         "\"Olive Young\" \"Korea\" shipping"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-10T00:00:00",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -2799,7 +3521,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 6.3,
+      "age_days": 7.3,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -2822,17 +3544,17 @@
       "source_date": "2026-10-18T02:38:01",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
       "score": 85,
-      "tier": "followup",
-      "decision": "8~30일 · 아직 필요한지 확인",
+      "tier": "archive",
+      "decision": "30일 초과 · 신규 대응 제외",
       "evidence": {
         "context": "Olive Young",
         "request": "?",
         "barrier": "Korean phone",
         "purchase": ""
       },
-      "age_days": 29.2,
+      "age_days": 30.2,
       "reasons": [
-        "8~30일 · 아직 필요한지 확인",
+        "30일 초과 · 신규 대응 제외",
         "배송·구매대행 단서"
       ],
       "assessment_version": 2
@@ -2848,7 +3570,7 @@
         "\"Olive Young\" \"Korea\" shipping"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-14T06:31:44.337120+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-13T14:09:38",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -2861,7 +3583,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 2.7,
+      "age_days": 3.7,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -2892,7 +3614,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 25.0,
+      "age_days": 26.0,
       "reasons": [
         "판매·서비스 홍보",
         "구매 관심 단서"
@@ -2924,7 +3646,7 @@
         "barrier": "Proxies",
         "purchase": ""
       },
-      "age_days": 33.3,
+      "age_days": 34.3,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -2942,7 +3664,7 @@
         "\"Korean\" cosmetics forwarding"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-02T02:33:15",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -2955,7 +3677,7 @@
         "barrier": "",
         "purchase": "buying"
       },
-      "age_days": 14.2,
+      "age_days": 15.2,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -2974,7 +3696,7 @@
         "\"Korean\" plush proxy"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-05T17:22:09",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -2987,7 +3709,7 @@
         "barrier": "proxies",
         "purchase": ""
       },
-      "age_days": 10.6,
+      "age_days": 11.6,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -3018,7 +3740,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 16.5,
+      "age_days": 17.5,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -3049,7 +3771,7 @@
         "barrier": "",
         "purchase": "Skincare"
       },
-      "age_days": 28.3,
+      "age_days": 29.3,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -3068,7 +3790,7 @@
         "\"Korean\" plush proxy"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-07T19:56:20",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -3081,7 +3803,7 @@
         "barrier": "Korean Bank",
         "purchase": ""
       },
-      "age_days": 8.4,
+      "age_days": 9.5,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -3112,7 +3834,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 16.1,
+      "age_days": 17.2,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -3143,7 +3865,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 2.6,
+      "age_days": 3.7,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -3174,7 +3896,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 13.6,
+      "age_days": 14.7,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -3205,7 +3927,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 2.2,
+      "age_days": 3.2,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -3223,7 +3945,7 @@
         "\"Korean\" cosmetics forwarding"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-15T06:40:57.218812+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-30T19:41:23",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -3236,7 +3958,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 16.5,
+      "age_days": 17.5,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -3267,7 +3989,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 16.5,
+      "age_days": 17.6,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -3298,7 +4020,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 3.8,
+      "age_days": 4.8,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -3308,18 +4030,18 @@
     {
       "id": "2ef89f6c029aaae614d1",
       "url": "https://simplycodes.com/store/global.musinsa.com-us",
-      "title": "MUSINSA Promo Codes - 20% Off w/Code Coupons Nov 2026",
-      "excerpt": "Find all MUSINSA promo codes and savings opportunities, tracked in real-time. Includes verified codes and single-use codes & more. Updated Nov 2026.",
+      "title": "MUSINSA Promo Codes - $15 Off Coupons Nov 2026 | Black Friday",
+      "excerpt": "MUSINSA Black Friday 2026 deals and promo codes, tracked in real-time. Updated Nov 2026.",
       "source": "simplycodes.com",
       "category": "웹 검색",
       "keywords": [
         "\"Musinsa\" shipping help"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-07T00:00:00",
-      "content_updated": "2026-11-14T06:31:44.337120+00:00",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
       "score": 0,
       "tier": "excluded",
       "decision": "구매·대행 요청 근거 부족",
@@ -3329,7 +4051,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 9.3,
+      "age_days": 10.3,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -3347,7 +4069,7 @@
         "\"Musinsa\" shipping help"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-02T10:50:16",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -3360,7 +4082,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 13.8,
+      "age_days": 14.9,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -3378,7 +4100,7 @@
         "\"Musinsa\" shipping help"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-02T00:31:06",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -3391,7 +4113,7 @@
         "barrier": "",
         "purchase": "Order"
       },
-      "age_days": 14.3,
+      "age_days": 15.3,
       "reasons": [
         "판매·서비스 홍보",
         "구매 관심 단서"
@@ -3409,7 +4131,7 @@
         "\"Musinsa\" shipping help"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-01T00:00:00",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -3422,7 +4144,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 15.3,
+      "age_days": 16.3,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -3453,7 +4175,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 24.3,
+      "age_days": 25.3,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -3471,7 +4193,7 @@
         "\"Musinsa\" shipping help"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-02T00:00:00",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -3484,7 +4206,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 14.3,
+      "age_days": 15.3,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -3502,7 +4224,7 @@
         "\"Musinsa\" shipping help"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-09T00:00:00",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -3515,7 +4237,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 7.3,
+      "age_days": 8.3,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -3533,7 +4255,7 @@
         "\"Musinsa\" shipping help"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-19T00:00:00",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -3546,7 +4268,7 @@
         "barrier": "",
         "purchase": "ordering"
       },
-      "age_days": 28.3,
+      "age_days": 29.3,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -3577,7 +4299,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 5.2,
+      "age_days": 6.3,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -3595,7 +4317,7 @@
         "\"Musinsa\" shipping help"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-02T02:57:36",
       "content_updated": "2026-11-15T06:40:57.218812+00:00",
@@ -3608,7 +4330,7 @@
         "barrier": "",
         "purchase": "Order"
       },
-      "age_days": 14.2,
+      "age_days": 15.2,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -3640,7 +4362,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 31.3,
+      "age_days": 32.3,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -3672,7 +4394,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 9.7,
+      "age_days": 10.8,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -3703,7 +4425,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 12.7,
+      "age_days": 13.7,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -3721,7 +4443,7 @@
         "\"Korea\" exclusive buy overseas"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-23T07:36:17",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -3734,7 +4456,7 @@
         "barrier": "Proxy",
         "purchase": ""
       },
-      "age_days": 24.0,
+      "age_days": 25.0,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -3745,29 +4467,30 @@
       "id": "06716c0037afb4e57e02",
       "url": "https://aimultiple.com/proxy-providers",
       "title": "Top Proxy Sites & Providers: Benchmark Results",
-      "excerpt": "Sign up and enter code AIM70 in the billing section to receive 70% off proxiesClaim Discount · Oxylabs was consistently among the fastest providers in our residential and mobile tests.",
+      "excerpt": "We test proxy providers on speed and success rate. Compare residential, datacenter, mobile proxies and web unblockers.",
       "source": "aimultiple.com",
       "category": "웹 검색",
       "keywords": [
-        "\"Korea\" exclusive buy overseas"
+        "\"Korea\" exclusive buy overseas",
+        "한국 배송대행 추천"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-07T17:49:23",
-      "content_updated": "2026-11-16T06:37:45.764030+00:00",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
       "score": 0,
       "tier": "excluded",
-      "decision": "한국 구매 맥락 부족",
+      "decision": "제외 표현",
       "evidence": {
         "context": "",
         "request": "",
         "barrier": "Proxy",
         "purchase": ""
       },
-      "age_days": 8.5,
+      "age_days": 9.6,
       "reasons": [
-        "한국 구매 맥락 부족",
+        "제외 표현",
         "배송·구매대행 단서"
       ],
       "assessment_version": 2
@@ -3785,10 +4508,10 @@
         "한국 배송대행 추천"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-03T00:00:00",
-      "content_updated": "2026-11-16T06:37:45.764030+00:00",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
       "score": 0,
       "tier": "excluded",
       "decision": "제외 표현",
@@ -3798,7 +4521,7 @@
         "barrier": "Proxies",
         "purchase": ""
       },
-      "age_days": 13.3,
+      "age_days": 14.3,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -3809,7 +4532,7 @@
       "id": "0bfb5d5f78e19601ba79",
       "url": "https://proxyserver.com/proxies/proxy-seller-review",
       "title": "Proxy-Seller Review 2026: Features, Pricing, and Verdict - Proxy Server",
-      "excerpt": "Proxy-Seller review 2026: datacenter proxies from $0.70/IP, residential from $3.50/GB, and an honest look at support, refunds, and who should buy.",
+      "excerpt": "Starting price: $0.90/IP for one week (USA IPv4) or $3.50/GB residential. Promo code PSR15 is 15% off IPv4, IPv6, ISP, and residential proxies, and 10% off mobile proxies. Proxy types: IPv4 datacenter, IPv6, ISP, residential, mobile (4G/5G/LTE)",
       "source": "proxyserver.com",
       "category": "웹 검색",
       "keywords": [
@@ -3817,10 +4540,10 @@
         "한국 배송대행 추천"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-13T02:41:07",
-      "content_updated": "2026-11-16T06:37:45.764030+00:00",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
       "score": 0,
       "tier": "excluded",
       "decision": "제외 표현",
@@ -3828,9 +4551,9 @@
         "context": "",
         "request": "",
         "barrier": "Proxy",
-        "purchase": "buy"
+        "purchase": ""
       },
-      "age_days": 3.2,
+      "age_days": 4.2,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -3861,7 +4584,7 @@
         "barrier": "Proxy",
         "purchase": ""
       },
-      "age_days": 31.5,
+      "age_days": 32.6,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -3879,7 +4602,7 @@
         "\"Korea\" exclusive buy overseas"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-21T09:24:44",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -3892,7 +4615,7 @@
         "barrier": "Proxies",
         "purchase": ""
       },
-      "age_days": 25.9,
+      "age_days": 26.9,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -3910,7 +4633,7 @@
         "\"Korea\" exclusive buy overseas"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-03T05:06:32",
       "content_updated": "2026-11-16T06:37:45.764030+00:00",
@@ -3923,7 +4646,7 @@
         "barrier": "Proxies",
         "purchase": ""
       },
-      "age_days": 13.1,
+      "age_days": 14.1,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -3941,7 +4664,7 @@
         "\"Korea\" exclusive buy overseas"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-11T10:33:04",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -3954,7 +4677,7 @@
         "barrier": "Proxies",
         "purchase": ""
       },
-      "age_days": 4.8,
+      "age_days": 5.9,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -3972,7 +4695,7 @@
         "\"Korea\" exclusive buy overseas"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-21T09:24:15",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -3985,7 +4708,7 @@
         "barrier": "Proxies",
         "purchase": ""
       },
-      "age_days": 25.9,
+      "age_days": 26.9,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -4003,7 +4726,7 @@
         "\"Korea\" exclusive buy overseas"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-06T00:00:00",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -4016,7 +4739,7 @@
         "barrier": "Proxy",
         "purchase": ""
       },
-      "age_days": 10.3,
+      "age_days": 11.3,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -4034,7 +4757,7 @@
         "\"Korea\" exclusive buy overseas"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-25T20:50:07",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -4047,7 +4770,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 21.4,
+      "age_days": 22.5,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -4067,7 +4790,7 @@
         "\"Korean\" plush proxy"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-05T13:38:27",
       "content_updated": "2026-11-15T06:40:57.218812+00:00",
@@ -4080,7 +4803,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 10.7,
+      "age_days": 11.8,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -4111,7 +4834,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 3.7,
+      "age_days": 4.8,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -4143,7 +4866,7 @@
         "barrier": "",
         "purchase": "cosmetics"
       },
-      "age_days": 3.7,
+      "age_days": 4.7,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -4174,7 +4897,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 3.2,
+      "age_days": 4.2,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -4205,7 +4928,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 32.4,
+      "age_days": 33.5,
       "reasons": [
         "제외 표현",
         "구매 관심 단서"
@@ -4224,10 +4947,10 @@
         "한국 배송대행 추천"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-12T01:25:28",
-      "content_updated": "2026-11-16T06:37:45.764030+00:00",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
       "score": 0,
       "tier": "excluded",
       "decision": "한국 구매 맥락 부족",
@@ -4237,7 +4960,7 @@
         "barrier": "Proxy",
         "purchase": ""
       },
-      "age_days": 4.2,
+      "age_days": 5.3,
       "reasons": [
         "한국 구매 맥락 부족",
         "배송·구매대행 단서"
@@ -4256,10 +4979,10 @@
         "한국 배송대행 추천"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-08T13:53:03",
-      "content_updated": "2026-11-16T06:37:45.764030+00:00",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
       "score": 0,
       "tier": "excluded",
       "decision": "제외 표현",
@@ -4269,7 +4992,7 @@
         "barrier": "Proxies",
         "purchase": ""
       },
-      "age_days": 7.7,
+      "age_days": 8.8,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -4287,7 +5010,7 @@
         "한국 배송대행 추천"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-26T19:04:25",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -4300,7 +5023,7 @@
         "barrier": "proxy",
         "purchase": "Buy"
       },
-      "age_days": 20.5,
+      "age_days": 21.5,
       "reasons": [
         "인터넷 프록시·기술 서비스",
         "배송·구매대행 단서"
@@ -4319,7 +5042,7 @@
         "한국 배송대행 추천"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-27T19:55:21",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -4332,7 +5055,7 @@
         "barrier": "Proxy",
         "purchase": ""
       },
-      "age_days": 19.4,
+      "age_days": 20.5,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -4350,7 +5073,7 @@
         "한국 배송대행 추천"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-22T13:22:27",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -4363,7 +5086,7 @@
         "barrier": "Proxies",
         "purchase": ""
       },
-      "age_days": 24.7,
+      "age_days": 25.8,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -4381,7 +5104,7 @@
         "한국 배송대행 추천"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-20T01:44:44",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -4394,7 +5117,7 @@
         "barrier": "Proxies",
         "purchase": ""
       },
-      "age_days": 27.2,
+      "age_days": 28.3,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -4412,7 +5135,7 @@
         "한국 배송대행 추천"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-01T16:23:56",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -4425,7 +5148,7 @@
         "barrier": "proxies",
         "purchase": ""
       },
-      "age_days": 14.6,
+      "age_days": 15.6,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -4456,7 +5179,7 @@
         "barrier": "Proxy",
         "purchase": ""
       },
-      "age_days": 32.6,
+      "age_days": 33.6,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -4466,8 +5189,8 @@
     {
       "id": "96ae28da7605b033298b",
       "url": "https://geonode.com/free-proxy-list",
-      "title": "Free Proxy List — 10,600 Live IPs, Updated Every Minute | Geonode",
-      "excerpt": "Use residential proxies when you need stable access, automatic IP changes, sticky sessions, location targeting, or support. They suit repeated or high-volume work. You do not need to manually rotate failed endpoints.",
+      "title": "Free Proxy List — 10,800 Live IPs, Updated Every Minute | Geonode",
+      "excerpt": "Free proxy list checked every minute: 10,800+ HTTP, HTTPS & SOCKS5 IPs from 100+ countries with uptime, speed and anonymity. Filter by country, download TXT/CSV/JSON or use the free API.",
       "source": "geonode.com",
       "category": "웹 검색",
       "keywords": [
@@ -4475,22 +5198,22 @@
         "한국 배송대행 추천"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-14T02:25:23",
-      "content_updated": "2026-11-16T06:37:45.764030+00:00",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
       "score": 0,
       "tier": "excluded",
-      "decision": "제외 표현",
+      "decision": "한국 구매 맥락 부족",
       "evidence": {
         "context": "",
         "request": "",
         "barrier": "Proxy",
         "purchase": ""
       },
-      "age_days": 2.2,
+      "age_days": 3.2,
       "reasons": [
-        "제외 표현",
+        "한국 구매 맥락 부족",
         "배송·구매대행 단서"
       ],
       "assessment_version": 2
@@ -4498,7 +5221,7 @@
     {
       "id": "123409b742a40ef4dde4",
       "url": "https://aimultiple.com/residential-proxy-providers",
-      "title": "12 Best Cheap Residential Proxies",
+      "title": "Best Cheap Residential Proxies",
       "excerpt": "Datacenter proxies are faster than residential proxies because their IP addresses are sourced from a remote cloud server. If you need to complete tasks quickly, dedicated datacenter proxies are a good option.",
       "source": "aimultiple.com",
       "category": "웹 검색",
@@ -4506,10 +5229,10 @@
         "한국 배송대행 추천"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-11-04T13:50:06",
-      "content_updated": "2026-11-14T06:31:44.337120+00:00",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
       "score": 0,
       "tier": "excluded",
       "decision": "제외 표현",
@@ -4519,7 +5242,7 @@
         "barrier": "Proxies",
         "purchase": ""
       },
-      "age_days": 11.7,
+      "age_days": 12.8,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -4537,7 +5260,7 @@
         "한국 굿즈 해외 구매"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-27T09:38:28",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -4550,7 +5273,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 19.9,
+      "age_days": 20.9,
       "reasons": [
         "판매·서비스 홍보",
         "구매 관심 단서"
@@ -4568,7 +5291,7 @@
         "한국 굿즈 해외 구매"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-19T13:26:12",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -4581,7 +5304,7 @@
         "barrier": "Proxies",
         "purchase": "Buy"
       },
-      "age_days": 27.7,
+      "age_days": 28.8,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -4612,7 +5335,7 @@
         "barrier": "Proxies",
         "purchase": "Buy"
       },
-      "age_days": 21.6,
+      "age_days": 22.7,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -4630,7 +5353,7 @@
         "한국 굿즈 해외 구매"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-31T10:27:13",
       "content_updated": "2026-11-14T06:31:44.337120+00:00",
@@ -4643,7 +5366,7 @@
         "barrier": "proxy",
         "purchase": ""
       },
-      "age_days": 15.8,
+      "age_days": 16.9,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -4662,7 +5385,7 @@
         "한국 배송대행 추천"
       ],
       "first_seen": "2026-11-14T06:31:44.337120+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-18T00:00:00",
       "content_updated": "2026-11-16T06:37:45.764030+00:00",
@@ -4675,7 +5398,7 @@
         "barrier": "Proxy",
         "purchase": ""
       },
-      "age_days": 29.3,
+      "age_days": 30.3,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -4706,7 +5429,7 @@
         "barrier": "proxy",
         "purchase": "order"
       },
-      "age_days": 14.3,
+      "age_days": 15.3,
       "reasons": [
         "개별 게시글 아님",
         "배송·구매대행 단서"
@@ -4733,10 +5456,10 @@
         "한국 배송대행 추천"
       ],
       "first_seen": "2026-11-13T09:01:50.638645+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-17T19:49:39",
-      "content_updated": "2026-11-16T06:37:45.764030+00:00",
+      "content_updated": "2026-11-17T07:59:38.258251+00:00",
       "score": 0,
       "tier": "excluded",
       "decision": "제외 표현",
@@ -4746,7 +5469,7 @@
         "barrier": "Proxies",
         "purchase": ""
       },
-      "age_days": 29.5,
+      "age_days": 30.5,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -4781,7 +5504,7 @@
         "barrier": "Proxies",
         "purchase": ""
       },
-      "age_days": 32.3,
+      "age_days": 33.4,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -4814,7 +5537,7 @@
         "barrier": "proxy",
         "purchase": ""
       },
-      "age_days": 7.2,
+      "age_days": 8.2,
       "reasons": [
         "제외 표현",
         "배송·구매대행 단서"
@@ -4834,7 +5557,7 @@
         "\"Korean proxy\" shipping"
       ],
       "first_seen": "2026-11-13T09:01:50.638645+00:00",
-      "last_seen": "2026-11-16T06:37:45.764030+00:00",
+      "last_seen": "2026-11-17T07:59:38.258251+00:00",
       "expanded_search": false,
       "source_date": "2026-10-21T12:11:08",
       "content_updated": "2026-11-13T09:01:50.638645+00:00",
@@ -4847,7 +5570,7 @@
         "barrier": "Proxy",
         "purchase": ""
       },
-      "age_days": 25.8,
+      "age_days": 26.8,
       "reasons": [
         "작성자 구매·배송 의사 확인 필요",
         "배송·구매대행 단서"
@@ -4878,7 +5601,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 4.7,
+      "age_days": 5.8,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -4909,7 +5632,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 3.4,
+      "age_days": 4.4,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -4941,7 +5664,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 9.9,
+      "age_days": 10.9,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -4973,7 +5696,7 @@
         "barrier": "",
         "purchase": "Merch"
       },
-      "age_days": 4.2,
+      "age_days": 5.3,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -5004,7 +5727,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 9.4,
+      "age_days": 10.4,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -5036,7 +5759,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 5.2,
+      "age_days": 6.3,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -5067,7 +5790,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 3.9,
+      "age_days": 5.0,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -5098,7 +5821,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 8.0,
+      "age_days": 9.0,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -5129,7 +5852,7 @@
         "barrier": "",
         "purchase": "Plush"
       },
-      "age_days": 4.7,
+      "age_days": 5.8,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -5160,7 +5883,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 5.5,
+      "age_days": 6.6,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -5191,7 +5914,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 5.5,
+      "age_days": 6.6,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -5222,7 +5945,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 8.2,
+      "age_days": 9.2,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -5253,7 +5976,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 6.1,
+      "age_days": 7.1,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -5284,7 +6007,7 @@
         "barrier": "",
         "purchase": "buying"
       },
-      "age_days": 5.3,
+      "age_days": 6.4,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -5315,7 +6038,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 5.7,
+      "age_days": 6.8,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -5346,7 +6069,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 6.3,
+      "age_days": 7.4,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -5377,7 +6100,7 @@
         "barrier": "",
         "purchase": "figure"
       },
-      "age_days": 6.5,
+      "age_days": 7.6,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -5408,7 +6131,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 11.9,
+      "age_days": 13.0,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -5441,7 +6164,7 @@
         "barrier": "",
         "purchase": "Buy"
       },
-      "age_days": 7.7,
+      "age_days": 8.7,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -5472,7 +6195,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 11.4,
+      "age_days": 12.5,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -5503,7 +6226,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 10.9,
+      "age_days": 12.0,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -5534,7 +6257,7 @@
         "barrier": "",
         "purchase": "figure"
       },
-      "age_days": 7.0,
+      "age_days": 8.0,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -5565,7 +6288,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 6.6,
+      "age_days": 7.7,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -5596,7 +6319,7 @@
         "barrier": "",
         "purchase": "buying"
       },
-      "age_days": 6.4,
+      "age_days": 7.4,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -5627,7 +6350,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 6.4,
+      "age_days": 7.5,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -5660,7 +6383,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 7.8,
+      "age_days": 8.8,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -5692,7 +6415,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 9.3,
+      "age_days": 10.3,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -5724,7 +6447,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 8.3,
+      "age_days": 9.3,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -5755,7 +6478,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 7.3,
+      "age_days": 8.3,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -5786,7 +6509,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 8.5,
+      "age_days": 9.5,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -5817,7 +6540,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 7.7,
+      "age_days": 8.8,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -5848,7 +6571,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 12.7,
+      "age_days": 13.7,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -5879,7 +6602,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 9.7,
+      "age_days": 10.7,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -5910,7 +6633,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 7.6,
+      "age_days": 8.6,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -5941,7 +6664,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 9.6,
+      "age_days": 10.7,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -5972,7 +6695,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 8.4,
+      "age_days": 9.4,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -6003,7 +6726,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 8.0,
+      "age_days": 9.1,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -6035,7 +6758,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 8.8,
+      "age_days": 9.9,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -6066,7 +6789,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 12.2,
+      "age_days": 13.2,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -6097,7 +6820,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 10.0,
+      "age_days": 11.1,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -6128,7 +6851,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 9.7,
+      "age_days": 10.8,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -6159,7 +6882,7 @@
         "barrier": "",
         "purchase": "Buying"
       },
-      "age_days": 8.7,
+      "age_days": 9.7,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -6190,7 +6913,7 @@
         "barrier": "",
         "purchase": "figures"
       },
-      "age_days": 8.4,
+      "age_days": 9.5,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -6221,7 +6944,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 14.9,
+      "age_days": 15.9,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -6252,7 +6975,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 13.6,
+      "age_days": 14.7,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -6283,7 +7006,7 @@
         "barrier": "",
         "purchase": "plush"
       },
-      "age_days": 12.5,
+      "age_days": 13.5,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -6314,7 +7037,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 10.2,
+      "age_days": 11.3,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -6345,7 +7068,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 9.8,
+      "age_days": 10.9,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -6376,7 +7099,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 12.3,
+      "age_days": 13.4,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -6407,7 +7130,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 10.2,
+      "age_days": 11.3,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -6438,7 +7161,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 14.6,
+      "age_days": 15.6,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -6469,7 +7192,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 10.1,
+      "age_days": 11.2,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -6500,7 +7223,7 @@
         "barrier": "",
         "purchase": "buying"
       },
-      "age_days": 15.6,
+      "age_days": 16.6,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -6531,7 +7254,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 16.4,
+      "age_days": 17.5,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -6562,7 +7285,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 12.3,
+      "age_days": 13.3,
       "reasons": [
         "후기·정보·종료된 요청",
         "구매 관심 단서"
@@ -6594,7 +7317,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 13.5,
+      "age_days": 14.5,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -6626,7 +7349,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 13.5,
+      "age_days": 14.5,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -6658,7 +7381,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 16.8,
+      "age_days": 17.9,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -6689,7 +7412,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 15.5,
+      "age_days": 16.6,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -6720,7 +7443,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 16.0,
+      "age_days": 17.1,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -6751,7 +7474,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 11.3,
+      "age_days": 12.3,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -6782,7 +7505,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 12.7,
+      "age_days": 13.7,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -6813,7 +7536,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 11.3,
+      "age_days": 12.3,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -6844,7 +7567,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 11.1,
+      "age_days": 12.2,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -6875,7 +7598,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 11.9,
+      "age_days": 12.9,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -6906,7 +7629,7 @@
         "barrier": "",
         "purchase": "buying"
       },
-      "age_days": 11.3,
+      "age_days": 12.4,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -6937,7 +7660,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 17.2,
+      "age_days": 18.3,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -6968,7 +7691,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 12.0,
+      "age_days": 13.0,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -6999,7 +7722,7 @@
         "barrier": "",
         "purchase": "ordering"
       },
-      "age_days": 18.3,
+      "age_days": 19.4,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -7030,7 +7753,7 @@
         "barrier": "",
         "purchase": "Figure"
       },
-      "age_days": 17.1,
+      "age_days": 18.2,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -7061,7 +7784,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 13.6,
+      "age_days": 14.6,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -7092,7 +7815,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 14.4,
+      "age_days": 15.4,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -7123,7 +7846,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 13.6,
+      "age_days": 14.6,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -7154,7 +7877,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 15.6,
+      "age_days": 16.6,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -7185,7 +7908,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 14.7,
+      "age_days": 15.7,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -7216,7 +7939,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 13.5,
+      "age_days": 14.5,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -7247,7 +7970,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 17.3,
+      "age_days": 18.4,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -7278,7 +8001,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 15.8,
+      "age_days": 16.9,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -7309,7 +8032,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 19.0,
+      "age_days": 20.1,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -7340,7 +8063,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 17.7,
+      "age_days": 18.8,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -7371,7 +8094,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 14.6,
+      "age_days": 15.6,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -7402,7 +8125,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 21.2,
+      "age_days": 22.2,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -7433,7 +8156,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 18.0,
+      "age_days": 19.1,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -7464,7 +8187,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 14.7,
+      "age_days": 15.7,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -7496,7 +8219,7 @@
         "barrier": "proxy",
         "purchase": ""
       },
-      "age_days": 15.8,
+      "age_days": 16.9,
       "reasons": [
         "한국 구매 맥락 부족",
         "배송·구매대행 단서"
@@ -7527,7 +8250,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 16.0,
+      "age_days": 17.1,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -7558,7 +8281,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 16.3,
+      "age_days": 17.4,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -7590,7 +8313,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 20.5,
+      "age_days": 21.5,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -7621,7 +8344,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 15.9,
+      "age_days": 17.0,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -7652,7 +8375,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 18.5,
+      "age_days": 19.5,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -7683,7 +8406,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 20.9,
+      "age_days": 22.0,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -7714,7 +8437,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 15.7,
+      "age_days": 16.8,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -7745,7 +8468,7 @@
         "barrier": "",
         "purchase": "figures"
       },
-      "age_days": 16.9,
+      "age_days": 17.9,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -7776,7 +8499,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 19.6,
+      "age_days": 20.7,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -7807,7 +8530,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 17.3,
+      "age_days": 18.4,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -7839,7 +8562,7 @@
         "barrier": "",
         "purchase": "figures"
       },
-      "age_days": 23.2,
+      "age_days": 24.3,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -7870,7 +8593,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 20.4,
+      "age_days": 21.4,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -7901,7 +8624,7 @@
         "barrier": "",
         "purchase": "Figures"
       },
-      "age_days": 16.5,
+      "age_days": 17.6,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -7932,7 +8655,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 22.6,
+      "age_days": 23.7,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -7963,7 +8686,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 17.5,
+      "age_days": 18.6,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -7994,7 +8717,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 16.5,
+      "age_days": 17.5,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -8025,7 +8748,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 18.5,
+      "age_days": 19.6,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -8056,7 +8779,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 23.0,
+      "age_days": 24.0,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -8087,7 +8810,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 23.7,
+      "age_days": 24.8,
       "reasons": [
         "개별 게시글 아님",
         "구매 관심 단서"
@@ -8118,7 +8841,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 17.5,
+      "age_days": 18.6,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -8149,7 +8872,7 @@
         "barrier": "",
         "purchase": "plush"
       },
-      "age_days": 23.4,
+      "age_days": 24.4,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -8180,7 +8903,7 @@
         "barrier": "",
         "purchase": "plush"
       },
-      "age_days": 20.2,
+      "age_days": 21.3,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -8211,7 +8934,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 20.1,
+      "age_days": 21.2,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -8244,7 +8967,7 @@
         "barrier": "",
         "purchase": "figure"
       },
-      "age_days": 20.4,
+      "age_days": 21.5,
       "reasons": [
         "후기·정보·종료된 요청",
         "구매 관심 단서"
@@ -8275,7 +8998,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 18.3,
+      "age_days": 19.3,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -8307,7 +9030,7 @@
         "barrier": "",
         "purchase": "figures"
       },
-      "age_days": 23.4,
+      "age_days": 24.5,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -8339,7 +9062,7 @@
         "barrier": "",
         "purchase": "figure"
       },
-      "age_days": 25.1,
+      "age_days": 26.1,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -8371,7 +9094,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 21.4,
+      "age_days": 22.4,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -8402,7 +9125,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 20.9,
+      "age_days": 22.0,
       "reasons": [
         "후기·정보·종료된 요청",
         "구매 관심 단서"
@@ -8433,7 +9156,7 @@
         "barrier": "proxy",
         "purchase": ""
       },
-      "age_days": 19.3,
+      "age_days": 20.3,
       "reasons": [
         "한국 구매 맥락 부족",
         "배송·구매대행 단서"
@@ -8465,7 +9188,7 @@
         "barrier": "",
         "purchase": "figure"
       },
-      "age_days": 22.7,
+      "age_days": 23.8,
       "reasons": [
         "구매·대행 요청 근거 부족",
         "구매 관심 단서"
@@ -8496,7 +9219,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 23.5,
+      "age_days": 24.5,
       "reasons": [
         "한국 구매 맥락 부족",
         "구매 관심 단서"
@@ -8531,7 +9254,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 25.4,
+      "age_days": 26.5,
       "assessment_version": 2
     },
     {
@@ -8561,7 +9284,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 497.8,
+      "age_days": 498.9,
       "assessment_version": 2
     },
     {
@@ -8591,7 +9314,7 @@
         "barrier": "Korean address",
         "purchase": "buy"
       },
-      "age_days": 1698.7,
+      "age_days": 1699.8,
       "assessment_version": 2
     },
     {
@@ -8621,7 +9344,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 20.5,
+      "age_days": 21.5,
       "assessment_version": 2
     },
     {
@@ -8651,7 +9374,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 22.8,
+      "age_days": 23.8,
       "assessment_version": 2
     },
     {
@@ -8681,7 +9404,7 @@
         "barrier": "",
         "purchase": "Buy"
       },
-      "age_days": 42.9,
+      "age_days": 43.9,
       "assessment_version": 2
     },
     {
@@ -8711,7 +9434,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 24.8,
+      "age_days": 25.9,
       "assessment_version": 2
     },
     {
@@ -8771,7 +9494,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 22.8,
+      "age_days": 23.9,
       "assessment_version": 2
     },
     {
@@ -8801,7 +9524,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 46.3,
+      "age_days": 47.4,
       "assessment_version": 2
     },
     {
@@ -8832,7 +9555,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 23.7,
+      "age_days": 24.7,
       "assessment_version": 2
     },
     {
@@ -8862,7 +9585,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 24.3,
+      "age_days": 25.4,
       "assessment_version": 2
     },
     {
@@ -8892,7 +9615,7 @@
         "barrier": "",
         "purchase": "배송"
       },
-      "age_days": 5776.3,
+      "age_days": 5777.3,
       "assessment_version": 2
     },
     {
@@ -9012,7 +9735,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 23.9,
+      "age_days": 24.9,
       "assessment_version": 2
     },
     {
@@ -9042,7 +9765,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 35.2,
+      "age_days": 36.3,
       "assessment_version": 2
     },
     {
@@ -9072,7 +9795,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 26.7,
+      "age_days": 27.7,
       "assessment_version": 2
     },
     {
@@ -9102,7 +9825,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 25.4,
+      "age_days": 26.5,
       "assessment_version": 2
     },
     {
@@ -9133,7 +9856,7 @@
         "barrier": "",
         "purchase": "order"
       },
-      "age_days": 29.1,
+      "age_days": 30.2,
       "assessment_version": 2
     },
     {
@@ -9163,7 +9886,7 @@
         "barrier": "",
         "purchase": "goods"
       },
-      "age_days": 31.6,
+      "age_days": 32.7,
       "assessment_version": 2
     },
     {
@@ -9193,7 +9916,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 27.0,
+      "age_days": 28.1,
       "assessment_version": 2
     },
     {
@@ -9224,7 +9947,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 30.6,
+      "age_days": 31.7,
       "assessment_version": 2
     },
     {
@@ -9284,7 +10007,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 43.2,
+      "age_days": 44.3,
       "assessment_version": 2
     },
     {
@@ -9315,7 +10038,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 47.5,
+      "age_days": 48.6,
       "assessment_version": 2
     },
     {
@@ -9345,7 +10068,7 @@
         "barrier": "Proxy",
         "purchase": "ORDER"
       },
-      "age_days": 40.2,
+      "age_days": 41.3,
       "assessment_version": 2
     },
     {
@@ -9375,7 +10098,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 27.7,
+      "age_days": 28.7,
       "assessment_version": 2
     },
     {
@@ -9405,7 +10128,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 30.8,
+      "age_days": 31.9,
       "assessment_version": 2
     },
     {
@@ -9436,7 +10159,7 @@
         "barrier": "",
         "purchase": "purchase"
       },
-      "age_days": 32.4,
+      "age_days": 33.5,
       "assessment_version": 2
     },
     {
@@ -9466,7 +10189,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 298.5,
+      "age_days": 299.6,
       "assessment_version": 2
     },
     {
@@ -9526,7 +10249,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 32.7,
+      "age_days": 33.7,
       "assessment_version": 2
     },
     {
@@ -9556,7 +10279,7 @@
         "barrier": "forwarding",
         "purchase": ""
       },
-      "age_days": 41.7,
+      "age_days": 42.7,
       "assessment_version": 2
     },
     {
@@ -9586,7 +10309,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 33.4,
+      "age_days": 34.4,
       "assessment_version": 2
     },
     {
@@ -9616,7 +10339,7 @@
         "barrier": "proxy",
         "purchase": "merch"
       },
-      "age_days": 256.3,
+      "age_days": 257.4,
       "assessment_version": 2
     },
     {
@@ -9676,7 +10399,7 @@
         "barrier": "",
         "purchase": "figure"
       },
-      "age_days": 32.7,
+      "age_days": 33.7,
       "assessment_version": 2
     },
     {
@@ -9707,7 +10430,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 52.8,
+      "age_days": 53.9,
       "assessment_version": 2
     },
     {
@@ -9738,7 +10461,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 49.1,
+      "age_days": 50.2,
       "assessment_version": 2
     },
     {
@@ -9768,7 +10491,7 @@
         "barrier": "",
         "purchase": "buying"
       },
-      "age_days": 2173.8,
+      "age_days": 2174.8,
       "assessment_version": 2
     },
     {
@@ -9799,7 +10522,7 @@
         "barrier": "",
         "purchase": "구매"
       },
-      "age_days": 510.3,
+      "age_days": 511.3,
       "assessment_version": 2
     },
     {
@@ -9829,7 +10552,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 31.0,
+      "age_days": 32.1,
       "assessment_version": 2
     },
     {
@@ -9859,7 +10582,7 @@
         "barrier": "",
         "purchase": "화장품"
       },
-      "age_days": 48.8,
+      "age_days": 49.9,
       "assessment_version": 2
     },
     {
@@ -9889,7 +10612,7 @@
         "barrier": "",
         "purchase": "Album"
       },
-      "age_days": 42.2,
+      "age_days": 43.3,
       "assessment_version": 2
     },
     {
@@ -9919,7 +10642,7 @@
         "barrier": "구매대행",
         "purchase": "택배"
       },
-      "age_days": 4733.3,
+      "age_days": 4734.3,
       "assessment_version": 2
     },
     {
@@ -9949,7 +10672,7 @@
         "barrier": "구매대행",
         "purchase": "구매"
       },
-      "age_days": 1761.3,
+      "age_days": 1762.3,
       "assessment_version": 2
     },
     {
@@ -10009,7 +10732,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 1767.4,
+      "age_days": 1768.5,
       "assessment_version": 2
     },
     {
@@ -10039,7 +10762,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 38.8,
+      "age_days": 39.8,
       "assessment_version": 2
     },
     {
@@ -10069,7 +10792,7 @@
         "barrier": "Korean Address",
         "purchase": "Buying"
       },
-      "age_days": 34.9,
+      "age_days": 35.9,
       "assessment_version": 2
     },
     {
@@ -10159,7 +10882,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 31.8,
+      "age_days": 32.8,
       "assessment_version": 2
     },
     {
@@ -10249,7 +10972,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 609.5,
+      "age_days": 610.5,
       "assessment_version": 2
     },
     {
@@ -10279,7 +11002,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 38.2,
+      "age_days": 39.2,
       "assessment_version": 2
     },
     {
@@ -10309,7 +11032,7 @@
         "barrier": "",
         "purchase": "Buy"
       },
-      "age_days": 38.2,
+      "age_days": 39.3,
       "assessment_version": 2
     },
     {
@@ -10339,7 +11062,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 33.2,
+      "age_days": 34.3,
       "assessment_version": 2
     },
     {
@@ -10372,7 +11095,7 @@
         "barrier": "",
         "purchase": "purchase"
       },
-      "age_days": 38.1,
+      "age_days": 39.2,
       "assessment_version": 2
     },
     {
@@ -10402,7 +11125,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 35.5,
+      "age_days": 36.5,
       "assessment_version": 2
     },
     {
@@ -10432,7 +11155,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 34.4,
+      "age_days": 35.5,
       "assessment_version": 2
     },
     {
@@ -10462,7 +11185,7 @@
         "barrier": "proxy",
         "purchase": ""
       },
-      "age_days": 34.9,
+      "age_days": 36.0,
       "assessment_version": 2
     },
     {
@@ -10493,7 +11216,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 20.2,
+      "age_days": 21.2,
       "assessment_version": 2
     },
     {
@@ -10554,7 +11277,7 @@
         "barrier": "",
         "purchase": "구매"
       },
-      "age_days": 43.8,
+      "age_days": 44.8,
       "assessment_version": 2
     },
     {
@@ -10584,7 +11307,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 62.7,
+      "age_days": 63.8,
       "assessment_version": 2
     },
     {
@@ -10614,7 +11337,7 @@
         "barrier": "",
         "purchase": "merchandise"
       },
-      "age_days": 46.0,
+      "age_days": 47.0,
       "assessment_version": 2
     },
     {
@@ -10644,7 +11367,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 47.0,
+      "age_days": 48.1,
       "assessment_version": 2
     },
     {
@@ -10674,7 +11397,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 45.7,
+      "age_days": 46.8,
       "assessment_version": 2
     },
     {
@@ -10704,7 +11427,7 @@
         "barrier": "k-addy",
         "purchase": ""
       },
-      "age_days": 647.9,
+      "age_days": 649.0,
       "assessment_version": 2
     },
     {
@@ -10764,7 +11487,7 @@
         "barrier": "",
         "purchase": "figure"
       },
-      "age_days": 65.0,
+      "age_days": 66.0,
       "assessment_version": 2
     },
     {
@@ -10824,7 +11547,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 578.8,
+      "age_days": 579.8,
       "assessment_version": 2
     },
     {
@@ -10854,7 +11577,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 49.4,
+      "age_days": 50.5,
       "assessment_version": 2
     },
     {
@@ -10885,7 +11608,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 117.0,
+      "age_days": 118.1,
       "assessment_version": 2
     },
     {
@@ -10915,7 +11638,7 @@
         "barrier": "",
         "purchase": "ORDER"
       },
-      "age_days": 63.1,
+      "age_days": 64.2,
       "assessment_version": 2
     },
     {
@@ -10945,7 +11668,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 43.2,
+      "age_days": 44.3,
       "assessment_version": 2
     },
     {
@@ -11005,7 +11728,7 @@
         "barrier": "",
         "purchase": "Buying"
       },
-      "age_days": 966.0,
+      "age_days": 967.0,
       "assessment_version": 2
     },
     {
@@ -11035,7 +11758,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 41.1,
+      "age_days": 42.2,
       "assessment_version": 2
     },
     {
@@ -11065,7 +11788,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 43.7,
+      "age_days": 44.8,
       "assessment_version": 2
     },
     {
@@ -11125,7 +11848,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 45.3,
+      "age_days": 46.3,
       "assessment_version": 2
     },
     {
@@ -11158,7 +11881,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 50.3,
+      "age_days": 51.3,
       "assessment_version": 2
     },
     {
@@ -11188,7 +11911,7 @@
         "barrier": "Proxy",
         "purchase": ""
       },
-      "age_days": 68.1,
+      "age_days": 69.2,
       "assessment_version": 2
     },
     {
@@ -11218,7 +11941,7 @@
         "barrier": "proxy",
         "purchase": ""
       },
-      "age_days": 48.4,
+      "age_days": 49.5,
       "assessment_version": 2
     },
     {
@@ -11249,7 +11972,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 63.6,
+      "age_days": 64.7,
       "assessment_version": 2
     },
     {
@@ -11279,7 +12002,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 41.5,
+      "age_days": 42.6,
       "assessment_version": 2
     },
     {
@@ -11309,7 +12032,7 @@
         "barrier": "forwarding",
         "purchase": ""
       },
-      "age_days": 61.0,
+      "age_days": 62.0,
       "assessment_version": 2
     },
     {
@@ -11340,7 +12063,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 44.0,
+      "age_days": 45.1,
       "assessment_version": 2
     },
     {
@@ -11370,7 +12093,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 45.9,
+      "age_days": 46.9,
       "assessment_version": 2
     },
     {
@@ -11464,7 +12187,7 @@
         "barrier": "",
         "purchase": "goods"
       },
-      "age_days": 69.1,
+      "age_days": 70.2,
       "assessment_version": 2
     },
     {
@@ -11495,7 +12218,7 @@
         "barrier": "Proxy",
         "purchase": "buying"
       },
-      "age_days": 685.0,
+      "age_days": 686.1,
       "assessment_version": 2
     },
     {
@@ -11525,7 +12248,7 @@
         "barrier": "",
         "purchase": "albums"
       },
-      "age_days": 1019.8,
+      "age_days": 1020.8,
       "assessment_version": 2
     },
     {
@@ -11555,7 +12278,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 1179.0,
+      "age_days": 1180.0,
       "assessment_version": 2
     },
     {
@@ -11585,7 +12308,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 336.6,
+      "age_days": 337.6,
       "assessment_version": 2
     },
     {
@@ -11615,7 +12338,7 @@
         "barrier": "",
         "purchase": "buying"
       },
-      "age_days": 384.9,
+      "age_days": 385.9,
       "assessment_version": 2
     },
     {
@@ -11645,7 +12368,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 279.5,
+      "age_days": 280.6,
       "assessment_version": 2
     },
     {
@@ -11675,7 +12398,7 @@
         "barrier": "proxy",
         "purchase": ""
       },
-      "age_days": 264.7,
+      "age_days": 265.7,
       "assessment_version": 2
     },
     {
@@ -11705,7 +12428,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 348.9,
+      "age_days": 350.0,
       "assessment_version": 2
     },
     {
@@ -11735,7 +12458,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 321.4,
+      "age_days": 322.5,
       "assessment_version": 2
     },
     {
@@ -11765,7 +12488,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 946.6,
+      "age_days": 947.7,
       "assessment_version": 2
     },
     {
@@ -11795,7 +12518,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 818.8,
+      "age_days": 819.9,
       "assessment_version": 2
     },
     {
@@ -11825,7 +12548,7 @@
         "barrier": "",
         "purchase": "구매"
       },
-      "age_days": 66.9,
+      "age_days": 68.0,
       "assessment_version": 2
     },
     {
@@ -11886,7 +12609,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 63.3,
+      "age_days": 64.3,
       "assessment_version": 2
     },
     {
@@ -11916,7 +12639,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 49.0,
+      "age_days": 50.0,
       "assessment_version": 2
     },
     {
@@ -11946,7 +12669,7 @@
         "barrier": "proxy",
         "purchase": ""
       },
-      "age_days": 53.2,
+      "age_days": 54.2,
       "assessment_version": 2
     },
     {
@@ -11976,7 +12699,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 69.1,
+      "age_days": 70.1,
       "assessment_version": 2
     },
     {
@@ -12068,7 +12791,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 62.0,
+      "age_days": 63.1,
       "assessment_version": 2
     },
     {
@@ -12098,7 +12821,7 @@
         "barrier": "",
         "purchase": "order"
       },
-      "age_days": 1820.0,
+      "age_days": 1821.1,
       "assessment_version": 2
     },
     {
@@ -12128,7 +12851,7 @@
         "barrier": "",
         "purchase": "굿즈"
       },
-      "age_days": 209.9,
+      "age_days": 211.0,
       "assessment_version": 2
     },
     {
@@ -12218,7 +12941,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 47.1,
+      "age_days": 48.2,
       "assessment_version": 2
     },
     {
@@ -12248,7 +12971,7 @@
         "barrier": "",
         "purchase": "photocards"
       },
-      "age_days": 320.0,
+      "age_days": 321.1,
       "assessment_version": 2
     },
     {
@@ -12278,7 +13001,7 @@
         "barrier": "",
         "purchase": "order"
       },
-      "age_days": 74.4,
+      "age_days": 75.5,
       "assessment_version": 2
     },
     {
@@ -12308,7 +13031,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 59.1,
+      "age_days": 60.2,
       "assessment_version": 2
     },
     {
@@ -12338,7 +13061,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 48.1,
+      "age_days": 49.1,
       "assessment_version": 2
     },
     {
@@ -12368,7 +13091,7 @@
         "barrier": "Korean address",
         "purchase": "albums"
       },
-      "age_days": 1260.0,
+      "age_days": 1261.0,
       "assessment_version": 2
     },
     {
@@ -12398,7 +13121,7 @@
         "barrier": "Proxy",
         "purchase": "albums"
       },
-      "age_days": 210.0,
+      "age_days": 211.1,
       "assessment_version": 2
     },
     {
@@ -12428,7 +13151,7 @@
         "barrier": "Korean bank",
         "purchase": "purchase"
       },
-      "age_days": 947.4,
+      "age_days": 948.5,
       "assessment_version": 2
     },
     {
@@ -12458,7 +13181,7 @@
         "barrier": "Korean address",
         "purchase": "album"
       },
-      "age_days": 784.5,
+      "age_days": 785.5,
       "assessment_version": 2
     },
     {
@@ -12488,7 +13211,7 @@
         "barrier": "Korean address",
         "purchase": ""
       },
-      "age_days": 1533.8,
+      "age_days": 1534.8,
       "assessment_version": 2
     },
     {
@@ -12518,7 +13241,7 @@
         "barrier": "korean address",
         "purchase": ""
       },
-      "age_days": 368.9,
+      "age_days": 369.9,
       "assessment_version": 2
     },
     {
@@ -12548,7 +13271,7 @@
         "barrier": "korean address",
         "purchase": "buying"
       },
-      "age_days": 1323.8,
+      "age_days": 1324.9,
       "assessment_version": 2
     },
     {
@@ -12578,7 +13301,7 @@
         "barrier": "k-addy",
         "purchase": "buy"
       },
-      "age_days": 1429.1,
+      "age_days": 1430.2,
       "assessment_version": 2
     },
     {
@@ -12608,7 +13331,7 @@
         "barrier": "forwarding",
         "purchase": ""
       },
-      "age_days": 636.0,
+      "age_days": 637.1,
       "assessment_version": 2
     },
     {
@@ -12638,7 +13361,7 @@
         "barrier": "proxy",
         "purchase": "buy"
       },
-      "age_days": 1099.5,
+      "age_days": 1100.5,
       "assessment_version": 2
     },
     {
@@ -12668,7 +13391,7 @@
         "barrier": "consolidation",
         "purchase": ""
       },
-      "age_days": 275.9,
+      "age_days": 277.0,
       "assessment_version": 2
     },
     {
@@ -12698,7 +13421,7 @@
         "barrier": "Proxy",
         "purchase": "order"
       },
-      "age_days": 1127.1,
+      "age_days": 1128.2,
       "assessment_version": 2
     },
     {
@@ -12758,7 +13481,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 47.2,
+      "age_days": 48.3,
       "assessment_version": 2
     },
     {
@@ -12788,7 +13511,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 1122.1,
+      "age_days": 1123.2,
       "assessment_version": 2
     },
     {
@@ -12818,7 +13541,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 1254.8,
+      "age_days": 1255.8,
       "assessment_version": 2
     },
     {
@@ -12848,7 +13571,7 @@
         "barrier": "proxy",
         "purchase": ""
       },
-      "age_days": 364.0,
+      "age_days": 365.0,
       "assessment_version": 2
     },
     {
@@ -12878,7 +13601,7 @@
         "barrier": "Korean Phone",
         "purchase": "Buying"
       },
-      "age_days": 894.7,
+      "age_days": 895.8,
       "assessment_version": 2
     },
     {
@@ -12908,7 +13631,7 @@
         "barrier": "consolidation",
         "purchase": "albums"
       },
-      "age_days": 373.8,
+      "age_days": 374.9,
       "assessment_version": 2
     },
     {
@@ -12939,7 +13662,7 @@
         "barrier": "",
         "purchase": "배송"
       },
-      "age_days": 336.9,
+      "age_days": 337.9,
       "assessment_version": 2
     },
     {
@@ -12969,7 +13692,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 903.6,
+      "age_days": 904.6,
       "assessment_version": 2
     },
     {
@@ -12999,7 +13722,7 @@
         "barrier": "kaddy",
         "purchase": ""
       },
-      "age_days": 387.6,
+      "age_days": 388.7,
       "assessment_version": 2
     },
     {
@@ -13091,7 +13814,7 @@
         "barrier": "Proxy",
         "purchase": ""
       },
-      "age_days": 524.1,
+      "age_days": 525.1,
       "assessment_version": 2
     },
     {
@@ -13151,7 +13874,7 @@
         "barrier": "forwarding",
         "purchase": ""
       },
-      "age_days": 1078.5,
+      "age_days": 1079.5,
       "assessment_version": 2
     },
     {
@@ -13181,7 +13904,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 54.0,
+      "age_days": 55.0,
       "assessment_version": 2
     },
     {
@@ -13361,7 +14084,7 @@
         "barrier": "구매대행",
         "purchase": "구매"
       },
-      "age_days": 4918.3,
+      "age_days": 4919.3,
       "assessment_version": 2
     },
     {
@@ -13391,7 +14114,7 @@
         "barrier": "구매대행",
         "purchase": "구매"
       },
-      "age_days": 2652.3,
+      "age_days": 2653.3,
       "assessment_version": 2
     },
     {
@@ -13481,7 +14204,7 @@
         "barrier": "구매대행",
         "purchase": "구매"
       },
-      "age_days": 1443.3,
+      "age_days": 1444.3,
       "assessment_version": 2
     },
     {
@@ -13634,7 +14357,7 @@
         "barrier": "",
         "purchase": "BUY"
       },
-      "age_days": 2530.9,
+      "age_days": 2531.9,
       "assessment_version": 2
     },
     {
@@ -13665,7 +14388,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 542.0,
+      "age_days": 543.0,
       "assessment_version": 2
     },
     {
@@ -13695,7 +14418,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 59.7,
+      "age_days": 60.8,
       "assessment_version": 2
     },
     {
@@ -13725,7 +14448,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 798.2,
+      "age_days": 799.3,
       "assessment_version": 2
     },
     {
@@ -13785,7 +14508,7 @@
         "barrier": "",
         "purchase": "배송"
       },
-      "age_days": 2346.3,
+      "age_days": 2347.3,
       "assessment_version": 2
     },
     {
@@ -13845,7 +14568,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 473.3,
+      "age_days": 474.3,
       "assessment_version": 2
     },
     {
@@ -13996,7 +14719,7 @@
         "barrier": "",
         "purchase": "order"
       },
-      "age_days": 67.4,
+      "age_days": 68.5,
       "assessment_version": 2
     },
     {
@@ -14026,7 +14749,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 1853.4,
+      "age_days": 1854.5,
       "assessment_version": 2
     },
     {
@@ -14056,7 +14779,7 @@
         "barrier": "consolidation",
         "purchase": ""
       },
-      "age_days": 258.5,
+      "age_days": 259.6,
       "assessment_version": 2
     },
     {
@@ -14086,7 +14809,7 @@
         "barrier": "",
         "purchase": "album"
       },
-      "age_days": 81.2,
+      "age_days": 82.3,
       "assessment_version": 2
     },
     {
@@ -14117,7 +14840,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 53.6,
+      "age_days": 54.7,
       "assessment_version": 2
     },
     {
@@ -14147,7 +14870,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 246.3,
+      "age_days": 247.3,
       "assessment_version": 2
     },
     {
@@ -14177,7 +14900,7 @@
         "barrier": "",
         "purchase": "order"
       },
-      "age_days": 919.6,
+      "age_days": 920.7,
       "assessment_version": 2
     },
     {
@@ -14267,7 +14990,7 @@
         "barrier": "",
         "purchase": "buying"
       },
-      "age_days": 1830.1,
+      "age_days": 1831.2,
       "assessment_version": 2
     },
     {
@@ -14327,7 +15050,7 @@
         "barrier": "",
         "purchase": "purchase"
       },
-      "age_days": 450.0,
+      "age_days": 451.0,
       "assessment_version": 2
     },
     {
@@ -14417,7 +15140,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 1004.3,
+      "age_days": 1005.3,
       "assessment_version": 2
     },
     {
@@ -14477,7 +15200,7 @@
         "barrier": "consolidation",
         "purchase": ""
       },
-      "age_days": 610.3,
+      "age_days": 611.3,
       "assessment_version": 2
     },
     {
@@ -14508,7 +15231,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 54.6,
+      "age_days": 55.6,
       "assessment_version": 2
     },
     {
@@ -14538,7 +15261,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 362.9,
+      "age_days": 363.9,
       "assessment_version": 2
     },
     {
@@ -14568,7 +15291,7 @@
         "barrier": "proxies",
         "purchase": "buy"
       },
-      "age_days": 1970.3,
+      "age_days": 1971.3,
       "assessment_version": 2
     },
     {
@@ -14598,7 +15321,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 75.4,
+      "age_days": 76.4,
       "assessment_version": 2
     },
     {
@@ -14659,7 +15382,7 @@
         "barrier": "",
         "purchase": "택배"
       },
-      "age_days": 1124.3,
+      "age_days": 1125.3,
       "assessment_version": 2
     },
     {
@@ -14689,7 +15412,7 @@
         "barrier": "",
         "purchase": "구매"
       },
-      "age_days": 143.3,
+      "age_days": 144.3,
       "assessment_version": 2
     },
     {
@@ -14779,7 +15502,7 @@
         "barrier": "",
         "purchase": "배송"
       },
-      "age_days": 3919.3,
+      "age_days": 3920.3,
       "assessment_version": 2
     },
     {
@@ -14839,7 +15562,7 @@
         "barrier": "",
         "purchase": "구매"
       },
-      "age_days": 2411.3,
+      "age_days": 2412.3,
       "assessment_version": 2
     },
     {
@@ -14869,7 +15592,7 @@
         "barrier": "",
         "purchase": "배송"
       },
-      "age_days": 244.3,
+      "age_days": 245.3,
       "assessment_version": 2
     },
     {
@@ -14899,7 +15622,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 2040.3,
+      "age_days": 2041.3,
       "assessment_version": 2
     },
     {
@@ -14929,7 +15652,7 @@
         "barrier": "",
         "purchase": "배송"
       },
-      "age_days": 1003.3,
+      "age_days": 1004.3,
       "assessment_version": 2
     },
     {
@@ -15019,7 +15742,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 1137.3,
+      "age_days": 1138.3,
       "assessment_version": 2
     },
     {
@@ -15049,7 +15772,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 1074.0,
+      "age_days": 1075.1,
       "assessment_version": 2
     },
     {
@@ -15079,7 +15802,7 @@
         "barrier": "",
         "purchase": "albums"
       },
-      "age_days": 407.3,
+      "age_days": 408.3,
       "assessment_version": 2
     },
     {
@@ -15109,7 +15832,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 291.2,
+      "age_days": 292.2,
       "assessment_version": 2
     },
     {
@@ -15139,7 +15862,7 @@
         "barrier": "proxy",
         "purchase": ""
       },
-      "age_days": 766.7,
+      "age_days": 767.8,
       "assessment_version": 2
     },
     {
@@ -15169,7 +15892,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 394.9,
+      "age_days": 396.0,
       "assessment_version": 2
     },
     {
@@ -15199,7 +15922,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 1082.7,
+      "age_days": 1083.8,
       "assessment_version": 2
     },
     {
@@ -15229,7 +15952,7 @@
         "barrier": "",
         "purchase": "photocards"
       },
-      "age_days": 2168.0,
+      "age_days": 2169.1,
       "assessment_version": 2
     },
     {
@@ -15259,7 +15982,7 @@
         "barrier": "",
         "purchase": "굿즈"
       },
-      "age_days": 959.1,
+      "age_days": 960.1,
       "assessment_version": 2
     },
     {
@@ -15289,7 +16012,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 821.5,
+      "age_days": 822.6,
       "assessment_version": 2
     },
     {
@@ -15319,7 +16042,7 @@
         "barrier": "",
         "purchase": "buying"
       },
-      "age_days": 2047.3,
+      "age_days": 2048.4,
       "assessment_version": 2
     },
     {
@@ -15349,7 +16072,7 @@
         "barrier": "",
         "purchase": "배송"
       },
-      "age_days": 59.1,
+      "age_days": 60.2,
       "assessment_version": 2
     },
     {
@@ -15379,7 +16102,7 @@
         "barrier": "",
         "purchase": "구매"
       },
-      "age_days": 2404.3,
+      "age_days": 2405.3,
       "assessment_version": 2
     },
     {
@@ -15499,7 +16222,7 @@
         "barrier": "proxy",
         "purchase": "albums"
       },
-      "age_days": 2295.2,
+      "age_days": 2296.2,
       "assessment_version": 2
     },
     {
@@ -15560,7 +16283,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 2193.9,
+      "age_days": 2195.0,
       "assessment_version": 2
     },
     {
@@ -15892,7 +16615,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 71.0,
+      "age_days": 72.1,
       "assessment_version": 2
     },
     {
@@ -15923,7 +16646,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 68.8,
+      "age_days": 69.8,
       "assessment_version": 2
     },
     {
@@ -15953,7 +16676,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 68.9,
+      "age_days": 70.0,
       "assessment_version": 2
     },
     {
@@ -15984,7 +16707,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 62.9,
+      "age_days": 63.9,
       "assessment_version": 2
     },
     {
@@ -16014,7 +16737,7 @@
         "barrier": "",
         "purchase": "order"
       },
-      "age_days": 69.7,
+      "age_days": 70.7,
       "assessment_version": 2
     },
     {
@@ -16075,7 +16798,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 1606.3,
+      "age_days": 1607.3,
       "assessment_version": 2
     },
     {
@@ -16106,7 +16829,7 @@
         "barrier": "",
         "purchase": "purchase"
       },
-      "age_days": 308.0,
+      "age_days": 309.0,
       "assessment_version": 2
     },
     {
@@ -16136,7 +16859,7 @@
         "barrier": "",
         "purchase": "order"
       },
-      "age_days": 1599.8,
+      "age_days": 1600.9,
       "assessment_version": 2
     },
     {
@@ -16166,7 +16889,7 @@
         "barrier": "",
         "purchase": "buying"
       },
-      "age_days": 544.5,
+      "age_days": 545.6,
       "assessment_version": 2
     },
     {
@@ -16196,7 +16919,7 @@
         "barrier": "",
         "purchase": "merch"
       },
-      "age_days": 405.8,
+      "age_days": 406.8,
       "assessment_version": 2
     },
     {
@@ -16226,7 +16949,7 @@
         "barrier": "Proxy",
         "purchase": "Buying"
       },
-      "age_days": 925.7,
+      "age_days": 926.8,
       "assessment_version": 2
     },
     {
@@ -16256,7 +16979,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 1508.9,
+      "age_days": 1510.0,
       "assessment_version": 2
     },
     {
@@ -16286,7 +17009,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 272.6,
+      "age_days": 273.6,
       "assessment_version": 2
     },
     {
@@ -16316,7 +17039,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 398.1,
+      "age_days": 399.1,
       "assessment_version": 2
     },
     {
@@ -16346,7 +17069,7 @@
         "barrier": "",
         "purchase": "Buying"
       },
-      "age_days": 552.6,
+      "age_days": 553.6,
       "assessment_version": 2
     },
     {
@@ -16376,7 +17099,7 @@
         "barrier": "proxies",
         "purchase": "buy"
       },
-      "age_days": 972.0,
+      "age_days": 973.1,
       "assessment_version": 2
     },
     {
@@ -16406,7 +17129,7 @@
         "barrier": "",
         "purchase": "merch"
       },
-      "age_days": 744.9,
+      "age_days": 745.9,
       "assessment_version": 2
     },
     {
@@ -16436,7 +17159,7 @@
         "barrier": "Korean bank",
         "purchase": "Buying"
       },
-      "age_days": 606.2,
+      "age_days": 607.3,
       "assessment_version": 2
     },
     {
@@ -16466,7 +17189,7 @@
         "barrier": "",
         "purchase": "goods"
       },
-      "age_days": 2368.9,
+      "age_days": 2370.0,
       "assessment_version": 2
     },
     {
@@ -16496,7 +17219,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 416.8,
+      "age_days": 417.9,
       "assessment_version": 2
     },
     {
@@ -16527,7 +17250,7 @@
         "barrier": "proxy",
         "purchase": "Buying"
       },
-      "age_days": 236.1,
+      "age_days": 237.2,
       "assessment_version": 2
     },
     {
@@ -16558,7 +17281,7 @@
         "barrier": "korean bank",
         "purchase": "buying"
       },
-      "age_days": 764.6,
+      "age_days": 765.7,
       "assessment_version": 2
     },
     {
@@ -16588,7 +17311,7 @@
         "barrier": "",
         "purchase": "albums"
       },
-      "age_days": 911.6,
+      "age_days": 912.6,
       "assessment_version": 2
     },
     {
@@ -16619,7 +17342,7 @@
         "barrier": "proxy",
         "purchase": "order"
       },
-      "age_days": 762.9,
+      "age_days": 764.0,
       "assessment_version": 2
     },
     {
@@ -16650,7 +17373,7 @@
         "barrier": "proxies",
         "purchase": "buy"
       },
-      "age_days": 1109.8,
+      "age_days": 1110.9,
       "assessment_version": 2
     },
     {
@@ -16681,7 +17404,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 858.6,
+      "age_days": 859.7,
       "assessment_version": 2
     },
     {
@@ -16712,7 +17435,7 @@
         "barrier": "",
         "purchase": "goods"
       },
-      "age_days": 741.6,
+      "age_days": 742.7,
       "assessment_version": 2
     },
     {
@@ -16742,7 +17465,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 256.8,
+      "age_days": 257.8,
       "assessment_version": 2
     },
     {
@@ -16772,7 +17495,7 @@
         "barrier": "Korean address",
         "purchase": "buy"
       },
-      "age_days": 979.2,
+      "age_days": 980.2,
       "assessment_version": 2
     },
     {
@@ -16802,7 +17525,7 @@
         "barrier": "korean address",
         "purchase": "buy"
       },
-      "age_days": 1020.3,
+      "age_days": 1021.4,
       "assessment_version": 2
     },
     {
@@ -16832,7 +17555,7 @@
         "barrier": "proxies",
         "purchase": "merch"
       },
-      "age_days": 410.7,
+      "age_days": 411.7,
       "assessment_version": 2
     },
     {
@@ -16862,7 +17585,7 @@
         "barrier": "proxy",
         "purchase": "buy"
       },
-      "age_days": 1434.7,
+      "age_days": 1435.8,
       "assessment_version": 2
     },
     {
@@ -17312,7 +18035,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 62.0,
+      "age_days": 63.0,
       "assessment_version": 2
     },
     {
@@ -17342,7 +18065,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 79.5,
+      "age_days": 80.5,
       "assessment_version": 2
     },
     {
@@ -17372,7 +18095,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 2124.3,
+      "age_days": 2125.3,
       "assessment_version": 2
     },
     {
@@ -17402,7 +18125,7 @@
         "barrier": "",
         "purchase": "구매"
       },
-      "age_days": 2074.3,
+      "age_days": 2075.3,
       "assessment_version": 2
     },
     {
@@ -17462,7 +18185,7 @@
         "barrier": "",
         "purchase": "purchase"
       },
-      "age_days": 1084.9,
+      "age_days": 1085.9,
       "assessment_version": 2
     },
     {
@@ -17492,7 +18215,7 @@
         "barrier": "",
         "purchase": "배송"
       },
-      "age_days": 1623.8,
+      "age_days": 1624.9,
       "assessment_version": 2
     },
     {
@@ -17522,7 +18245,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 790.4,
+      "age_days": 791.4,
       "assessment_version": 2
     },
     {
@@ -17552,7 +18275,7 @@
         "barrier": "",
         "purchase": "order"
       },
-      "age_days": 360.4,
+      "age_days": 361.5,
       "assessment_version": 2
     },
     {
@@ -17582,7 +18305,7 @@
         "barrier": "Korean address",
         "purchase": ""
       },
-      "age_days": 614.6,
+      "age_days": 615.7,
       "assessment_version": 2
     },
     {
@@ -17612,7 +18335,7 @@
         "barrier": "",
         "purchase": "photocards"
       },
-      "age_days": 1814.7,
+      "age_days": 1815.8,
       "assessment_version": 2
     },
     {
@@ -17643,7 +18366,7 @@
         "barrier": "",
         "purchase": "배송"
       },
-      "age_days": 1609.4,
+      "age_days": 1610.4,
       "assessment_version": 2
     },
     {
@@ -17674,7 +18397,7 @@
         "barrier": "",
         "purchase": "구매"
       },
-      "age_days": 527.6,
+      "age_days": 528.6,
       "assessment_version": 2
     },
     {
@@ -17704,7 +18427,7 @@
         "barrier": "",
         "purchase": "배송"
       },
-      "age_days": 159.5,
+      "age_days": 160.6,
       "assessment_version": 2
     },
     {
@@ -17734,7 +18457,7 @@
         "barrier": "",
         "purchase": "구매"
       },
-      "age_days": 294.7,
+      "age_days": 295.8,
       "assessment_version": 2
     },
     {
@@ -17764,7 +18487,7 @@
         "barrier": "forwarding",
         "purchase": "Buy"
       },
-      "age_days": 1021.0,
+      "age_days": 1022.0,
       "assessment_version": 2
     },
     {
@@ -17794,7 +18517,7 @@
         "barrier": "",
         "purchase": "배송"
       },
-      "age_days": 83.2,
+      "age_days": 84.2,
       "assessment_version": 2
     },
     {
@@ -17824,7 +18547,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 62.1,
+      "age_days": 63.2,
       "assessment_version": 2
     },
     {
@@ -17854,7 +18577,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 62.1,
+      "age_days": 63.2,
       "assessment_version": 2
     },
     {
@@ -18006,7 +18729,7 @@
         "barrier": "",
         "purchase": "구매"
       },
-      "age_days": 307.0,
+      "age_days": 308.1,
       "assessment_version": 2
     },
     {
@@ -18037,7 +18760,7 @@
         "barrier": "Korean Address",
         "purchase": "order"
       },
-      "age_days": 670.2,
+      "age_days": 671.3,
       "assessment_version": 2
     },
     {
@@ -18069,7 +18792,7 @@
         "barrier": "proxy",
         "purchase": ""
       },
-      "age_days": 824.9,
+      "age_days": 826.0,
       "assessment_version": 2
     },
     {
@@ -18102,7 +18825,7 @@
         "barrier": "forwarding",
         "purchase": "buy"
       },
-      "age_days": 256.9,
+      "age_days": 258.0,
       "assessment_version": 2
     },
     {
@@ -18132,7 +18855,7 @@
         "barrier": "proxy",
         "purchase": "order"
       },
-      "age_days": 727.2,
+      "age_days": 728.2,
       "assessment_version": 2
     },
     {
@@ -18165,7 +18888,7 @@
         "barrier": "korean address",
         "purchase": "buying"
       },
-      "age_days": 1160.6,
+      "age_days": 1161.6,
       "assessment_version": 2
     },
     {
@@ -18196,7 +18919,7 @@
         "barrier": "Korean address",
         "purchase": ""
       },
-      "age_days": 1457.1,
+      "age_days": 1458.1,
       "assessment_version": 2
     },
     {
@@ -18227,7 +18950,7 @@
         "barrier": "proxy",
         "purchase": "buying"
       },
-      "age_days": 1778.7,
+      "age_days": 1779.7,
       "assessment_version": 2
     },
     {
@@ -18262,7 +18985,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 1039.9,
+      "age_days": 1041.0,
       "assessment_version": 2
     },
     {
@@ -18293,7 +19016,7 @@
         "barrier": "forwarding",
         "purchase": "buy"
       },
-      "age_days": 1524.0,
+      "age_days": 1525.1,
       "assessment_version": 2
     },
     {
@@ -18325,7 +19048,7 @@
         "barrier": "korean address",
         "purchase": "buy"
       },
-      "age_days": 1734.9,
+      "age_days": 1736.0,
       "assessment_version": 2
     },
     {
@@ -18360,7 +19083,7 @@
         "barrier": "",
         "purchase": "Buying"
       },
-      "age_days": 996.8,
+      "age_days": 997.8,
       "assessment_version": 2
     },
     {
@@ -18393,7 +19116,7 @@
         "barrier": "",
         "purchase": "buying"
       },
-      "age_days": 892.8,
+      "age_days": 893.8,
       "assessment_version": 2
     },
     {
@@ -18423,7 +19146,7 @@
         "barrier": "Proxy",
         "purchase": "Ordering"
       },
-      "age_days": 888.3,
+      "age_days": 889.3,
       "assessment_version": 2
     },
     {
@@ -18453,7 +19176,7 @@
         "barrier": "Proxies",
         "purchase": ""
       },
-      "age_days": 1899.2,
+      "age_days": 1900.3,
       "assessment_version": 2
     },
     {
@@ -18483,7 +19206,7 @@
         "barrier": "proxy",
         "purchase": ""
       },
-      "age_days": 292.1,
+      "age_days": 293.1,
       "assessment_version": 2
     },
     {
@@ -18513,7 +19236,7 @@
         "barrier": "Proxy",
         "purchase": ""
       },
-      "age_days": 743.2,
+      "age_days": 744.3,
       "assessment_version": 2
     },
     {
@@ -18543,7 +19266,7 @@
         "barrier": "Kaddy",
         "purchase": "purchase"
       },
-      "age_days": 291.1,
+      "age_days": 292.2,
       "assessment_version": 2
     },
     {
@@ -18575,7 +19298,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 486.0,
+      "age_days": 487.0,
       "assessment_version": 2
     },
     {
@@ -18606,7 +19329,7 @@
         "barrier": "Proxy",
         "purchase": ""
       },
-      "age_days": 1109.9,
+      "age_days": 1111.0,
       "assessment_version": 2
     },
     {
@@ -18641,7 +19364,7 @@
         "barrier": "proxy",
         "purchase": "buying"
       },
-      "age_days": 1082.4,
+      "age_days": 1083.5,
       "assessment_version": 2
     },
     {
@@ -18676,7 +19399,7 @@
         "barrier": "proxy",
         "purchase": ""
       },
-      "age_days": 238.1,
+      "age_days": 239.2,
       "assessment_version": 2
     },
     {
@@ -18708,7 +19431,7 @@
         "barrier": "proxy",
         "purchase": "purchase"
       },
-      "age_days": 1416.3,
+      "age_days": 1417.4,
       "assessment_version": 2
     },
     {
@@ -18743,7 +19466,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 744.4,
+      "age_days": 745.5,
       "assessment_version": 2
     },
     {
@@ -18776,7 +19499,7 @@
         "barrier": "Korean Address",
         "purchase": "ordering"
       },
-      "age_days": 1312.2,
+      "age_days": 1313.2,
       "assessment_version": 2
     },
     {
@@ -18806,7 +19529,7 @@
         "barrier": "proxy",
         "purchase": "buy"
       },
-      "age_days": 1320.1,
+      "age_days": 1321.1,
       "assessment_version": 2
     },
     {
@@ -18839,7 +19562,7 @@
         "barrier": "proxy",
         "purchase": "buy"
       },
-      "age_days": 864.6,
+      "age_days": 865.7,
       "assessment_version": 2
     },
     {
@@ -18869,7 +19592,7 @@
         "barrier": "proxy",
         "purchase": ""
       },
-      "age_days": 256.1,
+      "age_days": 257.2,
       "assessment_version": 2
     },
     {
@@ -18899,7 +19622,7 @@
         "barrier": "Proxy",
         "purchase": ""
       },
-      "age_days": 1106.1,
+      "age_days": 1107.1,
       "assessment_version": 2
     },
     {
@@ -18929,7 +19652,7 @@
         "barrier": "Proxy",
         "purchase": ""
       },
-      "age_days": 1008.1,
+      "age_days": 1009.1,
       "assessment_version": 2
     },
     {
@@ -18960,7 +19683,7 @@
         "barrier": "proxy",
         "purchase": "order"
       },
-      "age_days": 791.7,
+      "age_days": 792.8,
       "assessment_version": 2
     },
     {
@@ -18990,7 +19713,7 @@
         "barrier": "proxy",
         "purchase": "Buying"
       },
-      "age_days": 600.6,
+      "age_days": 601.7,
       "assessment_version": 2
     },
     {
@@ -19022,7 +19745,7 @@
         "barrier": "Proxy",
         "purchase": ""
       },
-      "age_days": 277.9,
+      "age_days": 279.0,
       "assessment_version": 2
     },
     {
@@ -19054,7 +19777,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 439.6,
+      "age_days": 440.6,
       "assessment_version": 2
     },
     {
@@ -19084,7 +19807,7 @@
         "barrier": "proxy",
         "purchase": "buy"
       },
-      "age_days": 1094.8,
+      "age_days": 1095.8,
       "assessment_version": 2
     },
     {
@@ -19116,7 +19839,7 @@
         "barrier": "Proxy",
         "purchase": "buy"
       },
-      "age_days": 1863.5,
+      "age_days": 1864.6,
       "assessment_version": 2
     },
     {
@@ -19146,7 +19869,7 @@
         "barrier": "proxy",
         "purchase": "ordering"
       },
-      "age_days": 1094.3,
+      "age_days": 1095.3,
       "assessment_version": 2
     },
     {
@@ -19176,7 +19899,7 @@
         "barrier": "proxy",
         "purchase": "buy"
       },
-      "age_days": 985.9,
+      "age_days": 986.9,
       "assessment_version": 2
     },
     {
@@ -19207,7 +19930,7 @@
         "barrier": "Proxy",
         "purchase": "order"
       },
-      "age_days": 1159.2,
+      "age_days": 1160.2,
       "assessment_version": 2
     },
     {
@@ -19238,7 +19961,7 @@
         "barrier": "Proxy",
         "purchase": "buy"
       },
-      "age_days": 2052.6,
+      "age_days": 2053.7,
       "assessment_version": 2
     },
     {
@@ -19857,7 +20580,7 @@
         "barrier": "",
         "purchase": "order"
       },
-      "age_days": 83.9,
+      "age_days": 85.0,
       "assessment_version": 2
     },
     {
@@ -19887,7 +20610,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 63.8,
+      "age_days": 64.8,
       "assessment_version": 2
     },
     {
@@ -19919,7 +20642,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 760.2,
+      "age_days": 761.3,
       "assessment_version": 2
     },
     {
@@ -19950,7 +20673,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 978.4,
+      "age_days": 979.4,
       "assessment_version": 2
     },
     {
@@ -19980,7 +20703,7 @@
         "barrier": "",
         "purchase": "albums"
       },
-      "age_days": 852.7,
+      "age_days": 853.7,
       "assessment_version": 2
     },
     {
@@ -20010,7 +20733,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 835.7,
+      "age_days": 836.7,
       "assessment_version": 2
     },
     {
@@ -20041,7 +20764,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 496.7,
+      "age_days": 497.7,
       "assessment_version": 2
     },
     {
@@ -20071,7 +20794,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 1086.0,
+      "age_days": 1087.1,
       "assessment_version": 2
     },
     {
@@ -20101,7 +20824,7 @@
         "barrier": "",
         "purchase": "Buy"
       },
-      "age_days": 695.3,
+      "age_days": 696.3,
       "assessment_version": 2
     },
     {
@@ -20131,7 +20854,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 601.1,
+      "age_days": 602.2,
       "assessment_version": 2
     },
     {
@@ -20161,7 +20884,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 595.7,
+      "age_days": 596.7,
       "assessment_version": 2
     },
     {
@@ -20193,7 +20916,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 549.3,
+      "age_days": 550.4,
       "assessment_version": 2
     },
     {
@@ -20223,7 +20946,7 @@
         "barrier": "consolidate",
         "purchase": "buy"
       },
-      "age_days": 1229.0,
+      "age_days": 1230.1,
       "assessment_version": 2
     },
     {
@@ -20254,7 +20977,7 @@
         "barrier": "",
         "purchase": "photocards"
       },
-      "age_days": 1646.5,
+      "age_days": 1647.5,
       "assessment_version": 2
     },
     {
@@ -20284,7 +21007,7 @@
         "barrier": "",
         "purchase": "Buy"
       },
-      "age_days": 1077.8,
+      "age_days": 1078.9,
       "assessment_version": 2
     },
     {
@@ -20315,7 +21038,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 212.7,
+      "age_days": 213.7,
       "assessment_version": 2
     },
     {
@@ -20348,7 +21071,7 @@
         "barrier": "",
         "purchase": "album"
       },
-      "age_days": 745.7,
+      "age_days": 746.7,
       "assessment_version": 2
     },
     {
@@ -20378,7 +21101,7 @@
         "barrier": "",
         "purchase": "album"
       },
-      "age_days": 914.0,
+      "age_days": 915.0,
       "assessment_version": 2
     },
     {
@@ -20408,7 +21131,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 238.0,
+      "age_days": 239.0,
       "assessment_version": 2
     },
     {
@@ -20438,7 +21161,7 @@
         "barrier": "",
         "purchase": "order"
       },
-      "age_days": 231.4,
+      "age_days": 232.4,
       "assessment_version": 2
     },
     {
@@ -20470,7 +21193,7 @@
         "barrier": "",
         "purchase": "Buy"
       },
-      "age_days": 672.5,
+      "age_days": 673.5,
       "assessment_version": 2
     },
     {
@@ -20504,7 +21227,7 @@
         "barrier": "proxy",
         "purchase": "buy"
       },
-      "age_days": 276.6,
+      "age_days": 277.6,
       "assessment_version": 2
     },
     {
@@ -20534,7 +21257,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 840.8,
+      "age_days": 841.8,
       "assessment_version": 2
     },
     {
@@ -20565,7 +21288,7 @@
         "barrier": "consolidate",
         "purchase": ""
       },
-      "age_days": 328.5,
+      "age_days": 329.5,
       "assessment_version": 2
     },
     {
@@ -20595,7 +21318,7 @@
         "barrier": "",
         "purchase": "buy"
       },
-      "age_days": 453.7,
+      "age_days": 454.8,
       "assessment_version": 2
     },
     {
@@ -20625,7 +21348,7 @@
         "barrier": "",
         "purchase": "order"
       },
-      "age_days": 416.3,
+      "age_days": 417.3,
       "assessment_version": 2
     },
     {
@@ -20655,7 +21378,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 1105.9,
+      "age_days": 1107.0,
       "assessment_version": 2
     },
     {
@@ -20685,7 +21408,7 @@
         "barrier": "proxies",
         "purchase": ""
       },
-      "age_days": 606.1,
+      "age_days": 607.2,
       "assessment_version": 2
     },
     {
@@ -20990,7 +21713,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 77.3,
+      "age_days": 78.4,
       "assessment_version": 2
     },
     {
@@ -21054,7 +21777,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 2124.3,
+      "age_days": 2125.3,
       "assessment_version": 2
     },
     {
@@ -21084,7 +21807,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 191.3,
+      "age_days": 192.3,
       "assessment_version": 2
     },
     {
@@ -21144,7 +21867,7 @@
         "barrier": "Forwarding",
         "purchase": ""
       },
-      "age_days": 1574.5,
+      "age_days": 1575.5,
       "assessment_version": 2
     },
     {
@@ -21174,7 +21897,7 @@
         "barrier": "forwarding",
         "purchase": ""
       },
-      "age_days": 2092.2,
+      "age_days": 2093.3,
       "assessment_version": 2
     },
     {
@@ -21205,7 +21928,7 @@
         "barrier": "proxy",
         "purchase": "merch"
       },
-      "age_days": 437.7,
+      "age_days": 438.7,
       "assessment_version": 2
     },
     {
@@ -21235,7 +21958,7 @@
         "barrier": "Forwarding",
         "purchase": "purchase"
       },
-      "age_days": 2393.2,
+      "age_days": 2394.2,
       "assessment_version": 2
     },
     {
@@ -21266,7 +21989,7 @@
         "barrier": "forwarding",
         "purchase": "ordering"
       },
-      "age_days": 583.7,
+      "age_days": 584.8,
       "assessment_version": 2
     },
     {
@@ -21296,7 +22019,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 1860.1,
+      "age_days": 1861.2,
       "assessment_version": 2
     },
     {
@@ -21326,7 +22049,7 @@
         "barrier": "",
         "purchase": ""
       },
-      "age_days": 1163.5,
+      "age_days": 1164.5,
       "assessment_version": 2
     },
     {
@@ -21356,7 +22079,7 @@
         "barrier": "forwarding",
         "purchase": ""
       },
-      "age_days": 1467.6,
+      "age_days": 1468.7,
       "assessment_version": 2
     },
     {
@@ -21386,7 +22109,7 @@
         "barrier": "Korean Address",
         "purchase": "order"
       },
-      "age_days": 936.4,
+      "age_days": 937.4,
       "assessment_version": 2
     },
     {
@@ -21416,7 +22139,7 @@
         "barrier": "forwarding",
         "purchase": ""
       },
-      "age_days": 1966.5,
+      "age_days": 1967.5,
       "assessment_version": 2
     },
     {
@@ -21446,7 +22169,7 @@
         "barrier": "korean address",
         "purchase": ""
       },
-      "age_days": 2365.9,
+      "age_days": 2366.9,
       "assessment_version": 2
     },
     {
@@ -21477,7 +22200,7 @@
         "barrier": "forwarding",
         "purchase": "buy"
       },
-      "age_days": 2224.7,
+      "age_days": 2225.7,
       "assessment_version": 2
     },
     {
@@ -21509,19 +22232,19 @@
         "barrier": "",
         "purchase": "photocard"
       },
-      "age_days": 77.5,
+      "age_days": 78.5,
       "assessment_version": 2
     }
   ],
-  "last_attempt": "2026-11-16T06:37:45.764030+00:00",
-  "last_success": "2026-11-16T06:37:45.764030+00:00",
+  "last_attempt": "2026-11-17T07:59:38.258251+00:00",
+  "last_success": "2026-11-17T07:59:38.258251+00:00",
   "status": "ok",
   "errors": [],
   "queries": 20,
   "usage": {
     "month": "2026-11",
-    "monthly": 452,
-    "day": "2026-11-16",
+    "monthly": 472,
+    "day": "2026-11-17",
     "daily": 20
   },
   "next_query": 20,
@@ -21530,20 +22253,20 @@
     {
       "source": "웹 전체",
       "query": "\"Korean proxy\" shipping -\"sponsored\" -\"coupon code\" -\"VPN\" -\"datacenter\" -\"residential proxies\" -\"scraper\"",
-      "fetched": 2,
+      "fetched": 3,
       "priority": 0,
       "review": 1,
       "followup": 0,
-      "accepted": 2
+      "accepted": 3
     },
     {
       "source": "웹 전체",
       "query": "\"Korean proxy\" buying recommend -\"sponsored\" -\"coupon code\" -\"VPN\" -\"datacenter\" -\"residential proxies\" -\"scraper\"",
-      "fetched": 3,
+      "fetched": 1,
       "priority": 0,
       "review": 0,
       "followup": 0,
-      "accepted": 3
+      "accepted": 1
     },
     {
       "source": "웹 전체",
@@ -21566,29 +22289,29 @@
     {
       "source": "웹 전체",
       "query": "\"Korea\" \"international shipping\" help -\"sponsored\" -\"coupon code\" -\"VPN\" -\"datacenter\" -\"residential proxies\" -\"scraper\"",
-      "fetched": 0,
-      "priority": 0,
+      "fetched": 3,
+      "priority": 1,
       "review": 0,
-      "followup": 0,
-      "accepted": 0
+      "followup": 1,
+      "accepted": 3
     },
     {
       "source": "웹 전체",
       "query": "\"Weverse\" shipping help -\"sponsored\" -\"coupon code\" -\"VPN\" -\"datacenter\" -\"residential proxies\" -\"scraper\"",
-      "fetched": 5,
+      "fetched": 4,
       "priority": 0,
       "review": 0,
       "followup": 0,
-      "accepted": 5
+      "accepted": 4
     },
     {
       "source": "웹 전체",
       "query": "\"Bunjang\" buy help -\"sponsored\" -\"coupon code\" -\"VPN\" -\"datacenter\" -\"residential proxies\" -\"scraper\"",
-      "fetched": 4,
+      "fetched": 2,
       "priority": 0,
       "review": 2,
       "followup": 0,
-      "accepted": 4
+      "accepted": 2
     },
     {
       "source": "웹 전체",
@@ -21602,29 +22325,29 @@
     {
       "source": "웹 전체",
       "query": "\"manhwa\" merch buy -\"sponsored\" -\"coupon code\" -\"VPN\" -\"datacenter\" -\"residential proxies\" -\"scraper\"",
-      "fetched": 3,
+      "fetched": 2,
       "priority": 0,
       "review": 0,
       "followup": 0,
-      "accepted": 3
+      "accepted": 2
     },
     {
       "source": "웹 전체",
       "query": "\"webtoon\" merch shipping -\"sponsored\" -\"coupon code\" -\"VPN\" -\"datacenter\" -\"residential proxies\" -\"scraper\"",
-      "fetched": 15,
+      "fetched": 14,
       "priority": 0,
       "review": 0,
       "followup": 0,
-      "accepted": 15
+      "accepted": 14
     },
     {
       "source": "웹 전체",
       "query": "\"BL\" \"Korean\" merch -\"sponsored\" -\"coupon code\" -\"VPN\" -\"datacenter\" -\"residential proxies\" -\"scraper\"",
-      "fetched": 17,
+      "fetched": 12,
       "priority": 0,
       "review": 0,
       "followup": 0,
-      "accepted": 17
+      "accepted": 12
     },
     {
       "source": "웹 전체",
@@ -21638,38 +22361,38 @@
     {
       "source": "웹 전체",
       "query": "\"Lezhin\" merch shipping -\"sponsored\" -\"coupon code\" -\"VPN\" -\"datacenter\" -\"residential proxies\" -\"scraper\"",
-      "fetched": 3,
+      "fetched": 2,
       "priority": 0,
       "review": 0,
       "followup": 0,
-      "accepted": 3
+      "accepted": 2
     },
     {
       "source": "웹 전체",
       "query": "\"Olive Young\" \"Korea\" shipping -\"sponsored\" -\"coupon code\" -\"VPN\" -\"datacenter\" -\"residential proxies\" -\"scraper\"",
-      "fetched": 10,
+      "fetched": 8,
       "priority": 0,
       "review": 0,
-      "followup": 2,
-      "accepted": 10
+      "followup": 0,
+      "accepted": 8
     },
     {
       "source": "웹 전체",
       "query": "\"Korean\" cosmetics forwarding -\"sponsored\" -\"coupon code\" -\"VPN\" -\"datacenter\" -\"residential proxies\" -\"scraper\"",
-      "fetched": 14,
+      "fetched": 12,
       "priority": 0,
       "review": 1,
       "followup": 0,
-      "accepted": 14
+      "accepted": 12
     },
     {
       "source": "웹 전체",
       "query": "\"Musinsa\" shipping help -\"sponsored\" -\"coupon code\" -\"VPN\" -\"datacenter\" -\"residential proxies\" -\"scraper\"",
-      "fetched": 11,
+      "fetched": 12,
       "priority": 0,
       "review": 0,
       "followup": 0,
-      "accepted": 11
+      "accepted": 12
     },
     {
       "source": "웹 전체",
@@ -21686,40 +22409,40 @@
       "fetched": 20,
       "priority": 0,
       "review": 0,
-      "followup": 0,
+      "followup": 1,
       "accepted": 20
     },
     {
       "source": "웹 전체",
       "query": "한국 배송대행 추천 -\"sponsored\" -\"coupon code\" -\"VPN\" -\"datacenter\" -\"residential proxies\" -\"scraper\"",
-      "fetched": 12,
+      "fetched": 14,
       "priority": 0,
       "review": 0,
       "followup": 0,
-      "accepted": 12
+      "accepted": 14
     },
     {
       "source": "웹 전체",
       "query": "한국 굿즈 해외 구매 -\"sponsored\" -\"coupon code\" -\"VPN\" -\"datacenter\" -\"residential proxies\" -\"scraper\"",
-      "fetched": 9,
+      "fetched": 10,
       "priority": 0,
       "review": 0,
       "followup": 0,
-      "accepted": 9
+      "accepted": 10
     }
   ],
   "quality": {
     "counts": {
-      "priority": 0,
+      "priority": 1,
       "review": 35,
-      "followup": 4,
-      "archive": 113,
-      "excluded": 548
+      "followup": 3,
+      "archive": 114,
+      "excluded": 570
     },
-    "new_priority_today": 0,
+    "new_priority_today": 1,
     "target": 10,
     "review_limit": 20,
-    "gap": 10,
+    "gap": 9,
     "note": "검색 제목·요약과 검색엔진 날짜 기반 후보입니다. 실제 미해결 수요 여부는 원문 확인이 필요합니다."
   },
   "quality_history": [
@@ -21941,6 +22664,17 @@
         "followup": 4,
         "archive": 113,
         "excluded": 548
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "new_priority": 1,
+      "counts": {
+        "priority": 1,
+        "review": 35,
+        "followup": 3,
+        "archive": 114,
+        "excluded": 570
       }
     }
   ],
